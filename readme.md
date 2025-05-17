@@ -258,6 +258,27 @@ Specific combinations of candles that may indicate potential trend reversals or 
 
 ## Market Concepts
 
+### Market Participants
+- **Market Maker** - a market participant who provides liquidity by simultaneously placing buy and sell orders. Main functions:
+  - Providing market liquidity
+  - Narrowing the spread between buy and sell prices
+  - Stabilizing the market during periods of volatility
+  - Generating profit primarily from the spread
+  - Balancing the orderbook and maintaining market depth
+- **Market Manipulator** - a market participant who deliberately influences an asset's price to profit from price changes. Main strategies:
+  - **Self-Trading** - creating an illusion of activity through transactions between related addresses; used to trade against copy traders (forcing them to copy losing trades)
+  - **Price-Setting** - placing large orders without intending to fully execute them to create a false impression of supply/demand
+  - **Pump-and-Dump** - sequential accumulation of tokens, artificial price increase, then mass selling at an inflated price
+  - **Spoofing** - placing and quickly canceling large orders to create a false impression of market movement
+  - **Washing** - creating the appearance of trading activity through self-deals without an actual change in ownership
+- **Maker** - a trader who places limit orders, thereby adding liquidity to the orderbook. Usually receives lower fees on exchanges.
+- **Taker** - a trader who executes existing orders in the book, thereby removing liquidity from the market. Usually pays higher fees.
+- **Institutional Trader** - a financial organization (bank, hedge fund, investment fund) trading in large volumes. Has significant resources, information, and can influence the market.
+- **Retail Trader** - an individual investor trading in relatively small volumes. Usually has limited resources and information.
+- **Arbitrageur** - a market participant who profits from price differences of the same asset on different markets or exchanges. Contributes to price efficiency.
+- **Scalper** - a trader who makes many short-term trades to get small profits from minor price movements. Often uses technical analysis and automated systems.
+- **Whale** - a market participant with extremely large funds who can significantly influence the price of an asset with their operations.
+
 ### Liquidity and Volume
 - **Liquidity** - a measure of how easily an asset can be bought or sold without significantly affecting its price
 - **Volume** - the number of units of an asset traded during a specific period
