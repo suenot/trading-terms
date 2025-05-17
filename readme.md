@@ -343,7 +343,7 @@ Specific combinations of candles that may indicate potential trend reversals or 
 - **Day Trading** - buying and selling assets within one trading day, positions are not carried over to the next day
 - **Execution Algorithms** - special algorithms for optimal execution of large orders (TWAP, VWAP, Iceberg)
 
-### Derivatives Trading
+## Derivatives Trading
 
 #### Futures Contracts
 - **Perpetual Futures** - a type of futures contract without an expiration date, which mimics the spot market but with the possibility of using leverage. The price is pegged to the spot price index through a funding rate mechanism.
@@ -363,13 +363,13 @@ Specific combinations of candles that may indicate potential trend reversals or 
   - **Theta** - measures the decrease in an option's value over time (time decay).
   - **Vega** - measures the sensitivity of an option's price to changes in the implied volatility of the underlying asset.
 
-### Market Microstructure Analysis
+## Market Microstructure Analysis
 - **Order Flow** - analysis of the sequence of orders entering the market
 - **Orderbook Imbalance** - the ratio of volumes on the buy and sell sides
 - **Market Impact** - price change resulting from the execution of a large order
 - **Cluster Analysis** - studying trading volumes at different price levels
 
-### Risk Management and Trading Psychology
+## Risk Management and Trading Psychology
 - **Expected Return** - the mathematical expectation of a trading strategy's result
 - **Maximum Drawdown** - the largest percentage decrease in capital from peak to trough
 - **Sharpe Ratio** - a measure of investment efficiency considering risk
@@ -385,13 +385,13 @@ Specific combinations of candles that may indicate potential trend reversals or 
   - **Overconfidence** - a cognitive bias in which a person's subjective confidence in their judgments and abilities is greater than their objective accuracy, which can lead to taking excessive risks.
 - **Trading Journal** - a systematic record of all trades and their analysis
 
-### Technical Aspects and Infrastructure
+## Technical Aspects and Infrastructure
 - **Colocation** - placing trading servers in close proximity to exchange servers
 - **Latency Arbitrage** - utilizing the time difference in receiving market data
 - **Network Infrastructure** - optimizing network connections to minimize delays
 - **Monitoring Systems** - tools for tracking the operation of trading algorithms in real-time
 
-### Cryptocurrency-Specific Terms
+## Cryptocurrency-Specific Terms
 - **DEX (Decentralized Exchange)** - a decentralized exchange operating without a central intermediary
 - **AMM (Automated Market Maker)** - an automated market maker used in DEXs
 - **Liquidity Pool** - a pool of liquidity in decentralized protocols
