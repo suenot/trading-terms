@@ -256,6 +256,11 @@ Specific combinations of candles that may indicate potential trend reversals or 
 - **Elliott Waves** - a theory of market cycle analysis through wave patterns
 - **Harmonic Patterns** - geometric price patterns based on Fibonacci numbers
 
+## Market Analysis Types
+- **Technical Analysis** - a method of forecasting future price movements based on studying past price changes and trading volumes. Uses charts, patterns, indicators.
+- **Fundamental Analysis** - a method of assessing an asset's intrinsic (fair) value by examining economic, financial, and other qualitative and quantitative factors. In cryptocurrencies, this may include analyzing the project, team, technology, tokenomics, community, and overall market conditions.
+- **Sentimental Analysis** - the assessment of the overall mood or attitude of market participants towards a specific asset or the market as a whole. Sources can include social media, news articles, forums, and surveys. Helps to understand if the market is "bullish" or "bearish" from a crowd psychology perspective.
+
 ## Market Concepts
 
 ### Market Participants
@@ -308,6 +313,9 @@ Specific combinations of candles that may indicate potential trend reversals or 
 - **Drawdown** - the decline in portfolio value from peak to trough before a new peak
 - **Position Sizing** - determining the optimal number of asset units to trade considering risk
 - **Diversification** - distributing capital among various assets to reduce risk
+- **Value at Risk (VaR)** - a statistical measure of the maximum potential loss of a portfolio over a specific period with a given confidence level (e.g., a 95% VaR of $1000 over 1 day means there is a 95% confidence that losses will not exceed $1000 within one day).
+- **Hedging** - using financial instruments or market strategies to reduce the risk of adverse price movements in an asset. An example is opening a short futures position to hedge a long spot asset position.
+- **Stress Testing** - an analysis method where a portfolio or strategy is evaluated under hypothetical extreme but plausible market scenarios (e.g., a sharp market crash, liquidity crisis) to understand potential losses and resilience.
 
 ## Technical Aspects of Trading Systems
 
@@ -335,6 +343,26 @@ Specific combinations of candles that may indicate potential trend reversals or 
 - **Day Trading** - buying and selling assets within one trading day, positions are not carried over to the next day
 - **Execution Algorithms** - special algorithms for optimal execution of large orders (TWAP, VWAP, Iceberg)
 
+### Derivatives Trading
+
+#### Futures Contracts
+- **Perpetual Futures** - a type of futures contract without an expiration date, which mimics the spot market but with the possibility of using leverage. The price is pegged to the spot price index through a funding rate mechanism.
+- **Funding Rate** - regular payments between holders of long and short positions in perpetual futures. If the rate is positive, longs pay shorts; if negative, shorts pay longs. This helps keep the futures price close to the spot price.
+- **Initial Margin** - the minimum amount of funds a trader must deposit to open a leveraged position. Calculated as a percentage of the total position size.
+- **Maintenance Margin** - the minimum margin level that must be maintained in an account after opening a position. If the account balance falls below this level, a margin call or liquidation occurs.
+- **Liquidation** - the forced closure of a trader's position by the exchange when their margin falls below the maintenance margin level. This is done to prevent further losses that could exceed the trader's account funds.
+
+#### Options Contracts
+- **Call Option** - a contract giving the buyer the right (but not the obligation) to buy the underlying asset at a specified price (strike price) within a certain period or on a specific date (expiration date).
+- **Put Option** - a contract giving the buyer the right (but not the obligation) to sell the underlying asset at a specified price (strike price) within a certain period or on a specific date (expiration date).
+- **Strike Price** - the price at which the option holder can buy (for a call option) or sell (for a put option) the underlying asset.
+- **Expiration Date** - the date after which the option contract becomes invalid.
+- **Greeks** - a set of metrics used to measure various aspects of an option position's risk:
+  - **Delta** - measures the sensitivity of an option's price to a $1 change in the price of the underlying asset.
+  - **Gamma** - measures the rate of change of an option's delta as the price of the underlying asset changes.
+  - **Theta** - measures the decrease in an option's value over time (time decay).
+  - **Vega** - measures the sensitivity of an option's price to changes in the implied volatility of the underlying asset.
+
 ### Market Microstructure Analysis
 - **Order Flow** - analysis of the sequence of orders entering the market
 - **Orderbook Imbalance** - the ratio of volumes on the buy and sell sides
@@ -350,7 +378,11 @@ Specific combinations of candles that may indicate potential trend reversals or 
 - **Beta Indicator** - a measure of trading strategy sensitivity to a market index
 - **Calmar Ratio** - the ratio of profit to maximum drawdown
 - **Kelly Criterion** - the optimal proportion of capital for trading
-- **Cognitive Biases** - psychological biases affecting trading decisions
+- **Cognitive Biases** - psychological biases affecting trading decisions. Examples:
+  - **FOMO (Fear Of Missing Out)** - an irrational fear of missing out on a potentially profitable opportunity, often leading to impulsive and ill-considered trades at price peaks.
+  - **FUD (Fear, Uncertainty, and Doubt)** - the spread of negative, often unconfirmed information to cause panic and lower an asset's price for subsequent purchase at a lower price or to discredit a competitor.
+  - **Confirmation Bias** - the tendency to search for, interpret, favor, and recall information in a way that confirms or supports one's preexisting beliefs or hypotheses.
+  - **Overconfidence** - a cognitive bias in which a person's subjective confidence in their judgments and abilities is greater than their objective accuracy, which can lead to taking excessive risks.
 - **Trading Journal** - a systematic record of all trades and their analysis
 
 ### Technical Aspects and Infrastructure
@@ -364,3 +396,17 @@ Specific combinations of candles that may indicate potential trend reversals or 
 - **AMM (Automated Market Maker)** - an automated market maker used in DEXs
 - **Liquidity Pool** - a pool of liquidity in decentralized protocols
 - **Impermanent Loss** - temporary value loss when providing liquidity in AMMs
+
+#### DeFi (Decentralized Finance)
+- **Yield Farming** - the process of earning rewards (often in the form of additional tokens) for providing liquidity or staking cryptocurrencies in DeFi protocols.
+- **Staking** - the process of holding cryptocurrency in a wallet or on a special platform to support blockchain operations (e.g., validating transactions in Proof-of-Stake networks) and earn rewards.
+- **Liquidity Mining** - a type of yield farming where users receive protocol governance tokens in exchange for providing liquidity.
+- **Wrapped Assets** - tokens that represent an asset from another blockchain. For example, Wrapped Bitcoin (wBTC) is an ERC-20 token whose value is pegged to Bitcoin, allowing BTC to be used in the Ethereum DeFi ecosystem.
+- **Oracles** - services that supply smart contracts with real-world data (e.g., currency exchange rates, sports event outcomes) necessary for their correct operation.
+- **Flash Loans** - a special type of uncollateralized loans in DeFi that must be borrowed and repaid within a single blockchain transaction. Used for arbitrage, refinancing, and other complex operations.
+- **MEV (Miner Extractable Value / Maximum Extractable Value)** - the maximum value that miners (in Proof-of-Work networks) or validators (in Proof-of-Stake networks) can extract from block production beyond the standard block reward and transaction fees, by including, excluding, or reordering transactions within a block.
+
+#### Tokenomics
+- **Minting** - the process of creating new tokens. This can occur according to a predefined algorithm (e.g., in Proof-of-Stake during staking) or by the decision of the project team.
+- **Vesting** - the process of gradually unlocking tokens distributed to the project team, advisors, or early investors. Usually occurs on a specific schedule to prevent a sharp drop in token price.
+- **Token Burn** - the process of permanently removing a certain number of tokens from circulation. Used to reduce the total supply of tokens, which can potentially increase their value.
