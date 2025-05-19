@@ -82,7 +82,7 @@ Code that knows how to perform trading operations based on signals or other pred
 ### Bot Instance
 A running instance of a bot that generates trading orders based on a strategy and portfolio.
 
-### Density (Wall)
+### Density (alternative: Wall)
 In the context of an orderbook, "density" or "wall" is the volume of orders at a specific price level.
 
 Examples:
@@ -244,6 +244,54 @@ Specific combinations of candles that may indicate potential trend reversals or 
 - **Position Size** - the number of units of an asset in a position
 - **Margin** - collateral required to open a position with leverage
 - **Leverage** - the ratio between position size and a trader's own funds
+
+### Deal
+A **Deal** is an aggregated entity that combines trades, open positions, and open orders. If only trades remain in a deal (with no open positions or orders), such a deal is considered completed/closed.
+
+**Key parameters tracked for each deal:**
+
+- **Deal ID** — unique identifier
+- **Open Time** — date and time of the first trade within the deal
+- **Close Time** — date and time of the last trade within the deal (if the deal is closed)
+- **Holding Period** — duration of the deal (from opening to closing)
+- **Status** — open / closed / partially closed / canceled
+- **Deal Type** — long / short / arbitrage / spread / other
+- **Strategy** — which bot initiated the deal
+- **User** — which user initiated the deal
+- **Asset(s)** — symbol(s) of traded instruments (e.g., BTC/USDT)
+- **List of trades, positions, and orders** — all trades, positions, and orders included in the deal (including canceled ones)
+
+**Financial parameters:**
+- **Input** — amount of invested funds (in USDT and base currency)
+- **Output** — amount of withdrawn funds (in USDT and base currency)
+- **Realized PnL**
+  - In absolute terms (USDT, BTC, etc.)
+  - In percentage (relative to input)
+- **Unrealized PnL**
+  - In absolute terms (USDT, BTC, etc.)
+  - In percentage (relative to input)
+  - Estimated at current market price
+- **Expected PnL**
+  - Projected final profit/loss (e.g., if there are open positions/orders)
+- **Final PnL**
+  - Final profit/loss after the deal is fully closed
+- **Commissions**
+  - Total commissions (for each currency)
+  - As a percentage of turnover
+- **Slippage**
+  - Difference between expected and actual execution price
+- **Turnover**
+  - Total buy/sell volume within the deal
+- **ROI (Return on Investment)**
+  - Ratio of profit to invested funds
+- **Maximum Drawdown**
+  - Maximum decrease in deal value relative to its peak
+
+**Additional parameters:**
+- **Comment** — free-form notes
+- **Tags** — for filtering and analytics
+- **Related deals** — e.g., if part of a strategy or series of deals
+- **Platform/Broker** — where the deal was executed
 
 ## Technical Analysis Indicators
 - **Moving Average** - an indicator that smooths price fluctuations to identify trends
