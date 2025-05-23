@@ -237,6 +237,10 @@ Specific combinations of candles that may indicate potential trend reversals or 
 - **OCO (One Cancels Other)** - a pair of linked orders where execution of one automatically cancels the other
 - **Iceberg Order** - a large order split into a series of smaller ones to minimize market impact
 - **Conditional Orders** - orders that activate when certain conditions besides price are met
+- **Hidden Orders** - orders that are not displayed in the public order book until they are executed or partially executed. Used to conceal large trading intentions.
+- **Pegged Orders** - orders whose price is tied to a specific market benchmark (e.g., best bid/offer or mid-price) and automatically adjusts as that benchmark changes.
+- **Discretionary Orders** - orders that allow a broker or trading system to execute at a price within a specified range or under certain conditions, giving some flexibility in execution to achieve a better price or timing.
+- **Block Order Execution** - the process of executing large orders (block orders) often outside the public order book or through specialized mechanisms to minimize market impact and price slippage.
 
 ### Positions
 - **Long Position** - buying an asset with the expectation of its price increasing
@@ -318,6 +322,7 @@ A **Deal** is an aggregated entity that combines trades, open positions, and ope
   - Stabilizing the market during periods of volatility
   - Generating profit primarily from the spread
   - Balancing the orderbook and maintaining market depth
+- **Liquidity Provider** - an individual or institution that supplies buy and sell orders to the market, enhancing liquidity and facilitating smoother trading; can include market makers, banks, or specialized firms.
 - **Market Manipulator** - a market participant who deliberately influences an asset's price to profit from price changes. Main strategies:
   - **Self-Trading** - creating an illusion of activity through transactions between related addresses; used to trade against copy traders (forcing them to copy losing trades)
   - **Price-Setting** - placing large orders without intending to fully execute them to create a false impression of supply/demand
@@ -326,6 +331,7 @@ A **Deal** is an aggregated entity that combines trades, open positions, and ope
   - **Washing** - creating the appearance of trading activity through self-deals without an actual change in ownership
 - **Maker** - a trader who places limit orders, thereby adding liquidity to the orderbook. Usually receives lower fees on exchanges.
 - **Taker** - a trader who executes existing orders in the book, thereby removing liquidity from the market. Usually pays higher fees.
+- **Liquidity Taker** - a market participant who removes liquidity from the market by executing against existing orders in the order book, typically through market orders or aggressive limit orders.
 - **Institutional Trader** - a financial organization (bank, hedge fund, investment fund) trading in large volumes. Has significant resources, information, and can influence the market.
 - **Retail Trader** - an individual investor trading in relatively small volumes. Usually has limited resources and information.
 - **Arbitrageur** - a market participant who profits from price differences of the same asset on different markets or exchanges. Contributes to price efficiency.
@@ -355,6 +361,7 @@ A **Deal** is an aggregated entity that combines trades, open positions, and ope
 - **Spread** - the difference between bid and ask prices
 - **Quote** - the current price of an asset on an exchange
 - **Mid Price** - the average value between bid and ask prices
+- **Tick Size** - the minimum price increment by which the price of a financial instrument can change on a trading venue, affecting bid-ask spreads and market liquidity.
 
 ## Risk Management
 - **Risk-Reward Ratio** - the ratio of potential profit to potential loss in a trade
@@ -364,6 +371,24 @@ A **Deal** is an aggregated entity that combines trades, open positions, and ope
 - **Value at Risk (VaR)** - a statistical measure of the maximum potential loss of a portfolio over a specific period with a given confidence level (e.g., a 95% VaR of $1000 over 1 day means there is a 95% confidence that losses will not exceed $1000 within one day).
 - **Hedging** - using financial instruments or market strategies to reduce the risk of adverse price movements in an asset. An example is opening a short futures position to hedge a long spot asset position.
 - **Stress Testing** - an analysis method where a portfolio or strategy is evaluated under hypothetical extreme but plausible market scenarios (e.g., a sharp market crash, liquidity crisis) to understand potential losses and resilience.
+- **Algorithmic Risk Controls** - automated systems and rules embedded in trading algorithms or platforms to monitor and limit risks in real-time, such as position size limits, maximum loss thresholds, and order frequency controls.
+- **Pre-trade Risk Controls** - risk management measures applied before order submission to prevent erroneous or risky trades, such as maximum order size limits, price collars, fat-finger checks, and credit checks.
+- **Post-trade Risk Controls** - risk management processes and checks performed after trade execution to monitor compliance, detect errors, manage settlement risk, and ensure regulatory reporting.
+- **Market Surveillance** - the ongoing monitoring of trading activity and market behavior to detect and prevent manipulation, fraud, insider trading, and other abusive practices, ensuring market integrity and compliance with regulations.
+- **Kill Switch** - an emergency mechanism that allows for the immediate shutdown of trading systems or the cancellation of all open orders to prevent further losses or mitigate systemic risk during extreme market events or technical failures.
+- **Fat-Finger Error Prevention** - safeguards and system checks designed to prevent accidental entry of orders with incorrect prices, sizes, or other parameters, such as confirmation prompts, maximum order size limits, and price deviation warnings.
+- **Credit Risk Checks** - procedures and automated controls to assess a trader's or firm's ability to meet financial obligations before allowing order submission or trade execution, helping to prevent defaults and limit counterparty risk.
+- **Position Limit** - a maximum allowable size of a position in a particular asset or market, set by exchanges, regulators, or risk managers to prevent excessive risk exposure and maintain market stability.
+- **Order Frequency Limit** - a restriction on the number of orders that can be submitted within a specific time period, implemented to prevent excessive trading activity, reduce system load, and mitigate risks associated with high-frequency trading.
+- **Order Value Limit** - a maximum allowable value for a single order or a group of orders, set to prevent excessive exposure or unintended large trades, often enforced by exchanges or risk management systems.
+- **Market Access Controls** - systems and procedures that regulate and monitor who can access trading venues, what types of orders can be submitted, and under what conditions, to prevent unauthorized or risky trading activity.
+- **Self-Match Prevention** - mechanisms that prevent a trader's own buy and sell orders from matching with each other on an exchange, reducing the risk of wash trades and ensuring genuine market activity.
+- **Market Integrity** - the overall soundness, fairness, and transparency of a financial market, maintained through regulations, surveillance, and enforcement to ensure that all participants operate on a level playing field and that prices reflect true supply and demand.
+- **Insider Trading** - the illegal practice of trading financial instruments based on material, non-public information, giving an unfair advantage and undermining market integrity.
+- **Front Running** - the unethical or illegal practice of executing orders on a security for one's own account while taking advantage of advance knowledge of pending orders from clients or the market, typically to profit from the anticipated price movement.
+
+### Portfolio Management Strategies
+- **Algorithmic Portfolio Rebalancing** - an automated process of adjusting the composition and weights of assets in a portfolio using algorithms to maintain a desired asset allocation or follow a specific investment strategy.
 
 ## Technical Aspects of Trading Systems
 
@@ -380,6 +405,12 @@ A **Deal** is an aggregated entity that combines trades, open positions, and ope
 ### Algorithmic Trading
 - **Algorithmic Trading** - using computer algorithms to automatically execute trading operations
 - **High-Frequency Trading** - algorithmic trading with very high speed and a large number of trades
+- **High Frequency Trading Circuit Breakers** - mechanisms or rules designed to temporarily halt or slow down high-frequency trading activities during periods of extreme market volatility to prevent flash crashes or systemic disruptions.
+- **HFT Order Anticipation Strategies** - high-frequency trading strategies that attempt to predict and react to the order flow of other market participants, often by analyzing patterns in order submissions and cancellations.
+- **HFT Quote Stuffing** - a high-frequency trading tactic involving the rapid submission and cancellation of a large number of orders to create confusion or delay in the market, often to gain a competitive advantage.
+- **HFT Momentum Ignition** - a high-frequency trading strategy that involves initiating a series of trades to trigger price movements in a specific direction, often to profit from the resulting momentum or to induce other traders to follow.
+- **HFT Spoofing and Layering** - high-frequency trading tactics where traders place and quickly cancel large orders (spoofing) or place multiple orders at different price levels (layering) to mislead other market participants about supply and demand, often to manipulate prices.
+- **Adaptive Trading Algorithms** - trading algorithms capable of adjusting their parameters or logic in response to changing market conditions in real-time.
 - **Latency** - the time between sending an order and its execution on an exchange
 
 ### Trading Types
@@ -412,9 +443,16 @@ A **Deal** is an aggregated entity that combines trades, open positions, and ope
   - **Vega** - measures the sensitivity of an option's price to changes in the implied volatility of the underlying asset.
 
 ## Market Microstructure Analysis
+- **Market Microstructure** - the study of the process and outcomes of exchanging assets under explicit trading rules, focusing on how specific trading mechanisms affect price formation, liquidity, transaction costs, and market efficiency.
 - **Order Flow** - analysis of the sequence of orders entering the market
 - **Orderbook Imbalance** - the ratio of volumes on the buy and sell sides
 - **Market Impact** - price change resulting from the execution of a large order
+- **Dark Pools** - private exchanges or trading venues where financial instruments are traded without displaying quotes publicly, allowing large blocks of securities to be bought or sold anonymously to minimize market impact.
+- **Liquidity Fragmentation** - the dispersion of trading volume across multiple trading venues, exchanges, or platforms, which can result in reduced liquidity in any single venue and potentially wider spreads.
+- **Market Making Strategies** - systematic approaches used by market makers to provide liquidity while managing risk and generating profit, typically involving simultaneous placement of buy and sell orders at different price levels with the goal of capturing the spread.
+- **Order Book Depth** - a measure of the volume of orders at different price levels in the order book, indicating the market's ability to absorb large trades without significant price impact; deeper order books generally suggest higher liquidity.
+- **Liquidity Aggregation** - the process of combining liquidity from multiple sources, such as different exchanges or trading venues, to provide traders with better pricing, deeper order books, and improved execution quality.
+- **Order Matching Engine** - the core system of a trading venue or exchange that automatically matches buy and sell orders based on price, time, and other criteria, ensuring fair and efficient trade execution.
 - **Cluster Analysis** - studying trading volumes at different price levels
 
 ## Risk Management and Trading Psychology
@@ -436,8 +474,34 @@ A **Deal** is an aggregated entity that combines trades, open positions, and ope
 ## Technical Aspects and Infrastructure
 - **Colocation** - placing trading servers in close proximity to exchange servers
 - **Latency Arbitrage** - utilizing the time difference in receiving market data
+- **HFT Latency Arbitrage** - a high-frequency trading strategy that exploits tiny time differences in market data transmission across exchanges or venues to profit from price discrepancies before they are corrected.
 - **Network Infrastructure** - optimizing network connections to minimize delays
 - **Monitoring Systems** - tools for tracking the operation of trading algorithms in real-time
+- **Smart Order Router (SOR)** - a system that automatically routes orders to various trading venues (exchanges, dark pools, etc.) to achieve the best execution based on price, speed, or other criteria. Also known as Smart Order Routing.
+- **Order Routing** - the process of directing orders to different trading venues, exchanges, or liquidity providers to achieve optimal execution based on factors such as price, speed, and available liquidity.
+- **Order Protection Rule** - a regulatory requirement or system feature designed to prevent orders from being executed at inferior prices when better prices are available on other trading venues, ensuring best execution for traders.
+- **Best Execution** - the obligation of brokers and trading systems to execute client orders on the most favorable terms available, considering factors such as price, speed, likelihood of execution, and overall cost.
+- **Transaction Cost Analysis (TCA)** - a process of evaluating and measuring the costs associated with trading activities, including explicit costs (commissions, fees) and implicit costs (slippage, market impact), to assess execution quality and optimize trading strategies.
+- **Slippage Control** - techniques and tools used to minimize the difference between the expected and actual execution price of a trade, such as setting slippage limits, using limit orders, or employing advanced execution algorithms.
+- **Quote Matching** - the process by which a trading system or exchange compares and pairs buy and sell quotes/orders based on price, time, and other criteria to facilitate trade execution.
+- **Order Throttling** - the practice of limiting the rate at which orders can be submitted to a trading system or exchange, typically to prevent system overload, reduce risk, and ensure fair access for all participants.
+- **Order Acknowledgement** - a confirmation message sent by a trading system or exchange to notify the sender that an order has been received and accepted for processing, providing assurance of order status.
+- **Order Fill Confirmation** - a notification sent by a trading system or exchange to inform the trader that an order, or part of it, has been executed, including details such as price, quantity, and time of execution.
+- **Drop Copy** - a real-time copy of trade and order messages sent to a third-party system (such as risk management or compliance) for monitoring, auditing, or backup purposes.
+- **Heartbeat Message** - a periodic message exchanged between systems to confirm connectivity and session health, ensuring that communication channels remain active and responsive.
+- **Session Management** - the processes and controls used to establish, maintain, and terminate communication sessions between trading systems, including authentication, authorization, and recovery from interruptions.
+- **Disaster Recovery** - strategies and procedures for restoring trading operations and data after a major system failure, cyberattack, or other catastrophic event, ensuring business continuity and regulatory compliance.
+- **UDP Multicast** - a network communication method that allows data to be sent from one source to multiple recipients simultaneously, commonly used for distributing market data feeds with low latency.
+- **TCP/IP** - the foundational suite of communication protocols used for interconnecting network devices on the internet, providing reliable, ordered, and error-checked delivery of data.
+- **WebSocket** - a protocol providing full-duplex communication channels over a single TCP connection, widely used for real-time data streaming in trading platforms and exchanges.
+- **REST API** - a web service interface based on Representational State Transfer principles, enabling programmatic access to trading and market data using standard HTTP methods.
+- **gRPC** - a high-performance, open-source remote procedure call (RPC) framework that uses HTTP/2 for transport and Protocol Buffers for efficient serialization, suitable for low-latency trading system integration.
+- **DMA (Direct Market Access)** - a technology that enables traders to place orders directly into the order books of exchanges, bypassing intermediaries and allowing for faster execution, lower latency, and greater control over trading strategies.
+
+## Trading and Market Data Protocols
+- **FIX Protocol** - the Financial Information eXchange protocol, a widely used electronic communications protocol for real-time exchange of securities transactions and market data between financial institutions.
+- **FIX/Fast** - a high-performance binary encoding protocol developed as an extension to FIX, designed to reduce bandwidth and latency for market data and trading messages.
+- **Plaza2** - a proprietary high-speed trading and market data protocol used by the Moscow Exchange, optimized for low-latency electronic trading environments.
 
 ## Cryptocurrency-Specific Terms
 - **DEX (Decentralized Exchange)** - a decentralized exchange operating without a central intermediary
