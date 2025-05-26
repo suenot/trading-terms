@@ -288,6 +288,8 @@ A **Deal** is an aggregated entity that combines trades, open positions, and ope
   - Total buy/sell volume within the deal
 - **ROI (Return on Investment)**
   - Ratio of profit to invested funds
+- **CAGR (Compound Annual Growth Rate)**
+  - The mean annual growth rate of an investment over a specified period of time longer than one year, assuming profits are reinvested at the end of each year. Calculated as: CAGR = (Ending Value / Beginning Value)^(1/Years) - 1
 - **Maximum Drawdown**
   - Maximum decrease in deal value relative to its peak
 
