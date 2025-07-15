@@ -99,6 +99,37 @@ Calculating the maximum wall:
    - The wall volume in USDT from the orderbook
    - At what percentage from midPrice it is located (e.g.: -0.5% for bids or +0.7% for asks)
 
+## System Components (Panel/Dashboard)
+
+**Panel (Dashboard):**
+- A collection of market indicators and aggregates that forms a comprehensive "picture" of market conditions for quick diagnosis of market phase (strength/weakness, fear/greed, trend direction, support/resistance zones).
+
+### Major Market Indices and Related Instruments
+- **SP500 ($SPY, $SPX)** — the main US stock market index reflecting the performance of 500 largest companies. Often used as a baseline reference for analyzing overall market direction.
+- **Nasdaq 100 ($QQQ, $NDX)** — US technology sector index. Large technology companies have significant influence on the global market.
+- **VIX** — volatility index, often called the "fear index". High values indicate growing panic and probability of market decline, low values indicate a calm phase.
+- **Dow Jones Industrial Average ($DIA, $DJI)** — index reflecting the state of the US industrial sector.
+- **Russell 2000 ($IWM, $RUT)** — small-cap index, often used to analyze "second-tier" trends and economic rotation.
+- **Semiconductor ETF ($SMH, $SOXX)** — sector ETF for semiconductors, indicator of sentiment in the technology industry.
+- **VVIX** — volatility of VIX volatility.
+- **S5Fi** — percentage of S&P500 stocks trading above their 50-day moving average; important indicator of market overbought/oversold conditions.
+- **S5TH** — percentage of S&P500 stocks above their 200-day moving average; indicator of long-term trend health.
+- **VXN** — Nasdaq volatility index.
+- **US10Y / US02Y** — US government bond yields, help assess market sentiment and risks.
+- **DXY** — US Dollar Index. DXY growth amid declining stocks often indicates flight to "quality".
+- **MACD, RSI, EMA, MA** — most popular technical indicators for analyzing trends, momentum, overbought/oversold zones.
+- **McClellan Oscillator** — market breadth and short-term overbought conditions.
+- **Seasonality and Key Events** — seasonal return variations, "witching Friday" and other calendar effects.
+
+### Imbalance
+- **Order Book Imbalance** — disproportion between the volume of buy orders (bids) and sell orders (asks) in the order book. High imbalance (e.g., bids >> asks) may indicate upcoming demand or preparation for a level "buyout", while the opposite situation indicates selling pressure. In aggregated (cluster) analysis, imbalance is calculated as the relative excess of volume on one side of the order book at a specific price level, or across the entire order book:
+
+  $$
+  \text{Imbalance} = \frac{Bids - Asks}{Bids + Asks}
+  $$
+  
+  where Bids is the sum of limit buy order volume in a given range, Asks is for sell orders.
+
 ## Notes
 - One Exchange can have multiple Markets
 - One Market can contain multiple Instruments
