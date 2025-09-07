@@ -336,6 +336,16 @@ A **Deal** is an aggregated entity that combines trades, open positions, and ope
 - **MACD (Moving Average Convergence/Divergence)** - an indicator showing the relationship between two moving averages
 - **Bollinger Bands** - a volatility indicator consisting of a moving average and two standard deviations
 - **Volume Indicators** - OBV (On-Balance Volume), Volume Profile, CVD (Cumulative Volume Delta)
+- **Cumulative Volume Delta (CVD)** - shows the cumulative pressure of buyers (Buy Market Orders) versus sellers (Sell Market Orders) over a selected period, starting from a reference point. Calculated as the running sum of the difference between buy volume at ask prices and sell volume at bid prices for each bar or tick:
+  $$
+  \Delta = \text{Buy Volume at Ask} - \text{Sell Volume at Bid}
+  $$
+  
+  $$
+  \text{CumDelta}[n] = \text{CumDelta}[n-1] + \Delta[n]
+  $$
+  
+  Rising CVD indicates buyer dominance, while falling CVD suggests seller pressure. Data sources include order flow, Level II market data, and aggregated volumes in candles.
 - **Momentum Indicators** - Momentum, Rate of Change (ROC)
 - **Fibonacci Levels** - a technical analysis tool based on Fibonacci numbers
 - **Elliott Waves** - a theory of market cycle analysis through wave patterns
@@ -460,6 +470,12 @@ A **Deal** is an aggregated entity that combines trades, open positions, and ope
 #### Futures Contracts
 - **Perpetual Futures** - a type of futures contract without an expiration date, which mimics the spot market but with the possibility of using leverage. The price is pegged to the spot price index through a funding rate mechanism.
 - **Funding Rate** - regular payments between holders of long and short positions in perpetual futures. If the rate is positive, longs pay shorts; if negative, shorts pay longs. This helps keep the futures price close to the spot price.
+- **Open Interest** - represents the total number of open contracts (futures/options) that have not been closed or exercised. Calculated as the total number of active open positions:
+  $$
+  \text{Open Interest} = \text{Number of active open positions}
+  $$
+  
+  Open interest at the start of the day = 0. Opening new positions (buy/sell without closing opposite positions) increases the indicator by +1. Closing positions (opposite trade on an already open contract) decreases the indicator by -1. Data is usually obtained from exchange clearing statistics, broker APIs, or derivatives reporting tables.
 - **Initial Margin** - the minimum amount of funds a trader must deposit to open a leveraged position. Calculated as a percentage of the total position size.
 - **Maintenance Margin** - the minimum margin level that must be maintained in an account after opening a position. If the account balance falls below this level, a margin call or liquidation occurs.
 - **Liquidation** - the forced closure of a trader's position by the exchange when their margin falls below the maintenance margin level. This is done to prevent further losses that could exceed the trader's account funds.
