@@ -3106,7 +3106,8 @@ export const categories: Category[] = [
           "en": "a confirmation message sent by a trading system or exchange to notify the sender that an order has been received and accepted for processing, providing assurance of order status.",
           "ru": "процесс необратимого удаления определённого количества токенов из обращения",
           "zh": "交易系统或交易所发送的确认消息，通知发送者订单已被接收并接受处理，提供订单状态保证。"
-        }
+        },
+        "image": "/images/trading_order_ack_check_v3_premium_1770936938181.png"
       },
       {
         "id": "order-fill-confirmation",
@@ -3203,7 +3204,8 @@ export const categories: Category[] = [
           "en": "the foundational suite of communication protocols used for interconnecting network devices on the internet, providing reliable, ordered, and error-checked delivery of data.",
           "ru": "the foundational suite of communication protocols used for interconnecting network devices on the internet, providing reliable, ordered, and error-checked delivery of data.",
           "zh": "用于在互联网上互连网络设备的基础通信协议套件，提供可靠、有序和错误检查的数据传输。"
-        }
+        },
+        "image": "/images/trading_tcpip_handshake_v4_premium_1770936955352.png"
       },
       {
         "id": "websocket",
@@ -3258,7 +3260,8 @@ export const categories: Category[] = [
           "en": "a technology that enables traders to place orders directly into the order books of exchanges, bypassing intermediaries and allowing for faster execution, lower latency, and greater control over trading strategies.",
           "ru": "a technology that enables traders to place orders directly into the order books of exchanges, bypassing intermediaries and allowing for faster execution, lower latency, and greater control over trading strategies.",
           "zh": "使交易者能够直接将订单放入交易所订单簿的技术，绕过中介机构，允许更快执行、更低延迟和对交易策略的更大控制。"
-        }
+        },
+        "image": "/images/trading_dma_tunnel_v4_premium_1770936968978.png"
       }
     ]
   },

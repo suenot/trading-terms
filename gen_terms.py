@@ -251,7 +251,10 @@ image_map = {
     "quote-matching": "/images/trading_quote_matching_puzzle_premium_1770936270973.png",
     "order-fill-confirmation": "/images/trading_order_fill_confirm_premium_1770936286377.png",
     "drop-copy": "/images/trading_drop_copy_ghost_v3_premium_1770936301217.png",
-    "heartbeat-message": "/images/trading_heartbeat_neon_p8_premium_1770936316229.png"
+    "heartbeat-message": "/images/trading_heartbeat_neon_p8_premium_1770936316229.png",
+    "order-acknowledgement": "/images/trading_order_ack_check_v3_premium_1770936938181.png",
+    "tcp-ip": "/images/trading_tcpip_handshake_v4_premium_1770936955352.png",
+    "dma--direct-market-access-": "/images/trading_dma_tunnel_v4_premium_1770936968978.png"
 }
 
 output = """export interface Term {
