@@ -52,7 +52,27 @@ image_map = {
     "vvix": "/images/trading_vvix_volatility_of_volatility_1770921684375.png",
     "staking": "/images/trading_staking_premium_v3_1770921900701.png",
     "token-burn": "/images/trading_token_burn_incinerator_premium_1770921848644.png",
-    "dex--decentralized-exchange-": "/images/trading_dex_premium_v2_1770921976391.png"
+    "dex--decentralized-exchange-": "/images/trading_dex_premium_v2_1770921976391.png",
+    "amm--automated-market-maker-": "/images/trading_amm_premium_v3_fixed_1770922988706.png",
+    "liquidity-pool": "/images/trading_liquidity_pool_glass_v3_1770922916237.png",
+    "yield-farming": "/images/trading_yield_farming_harvest_v3_1770922942130.png",
+    "impermanent-loss": "/images/trading_impermanent_loss_v3_premium_1770923012126.png",
+    "oracles": "/images/trading_oracles_data_bridge_premium_1770923035292.png",
+    "flash-loans": "/images/trading_flash_loans_instant_burst_premium_1770923058450.png",
+    "minting": "/images/trading_minting_new_tokens_premium_v2_1770923101089.png",
+    "vesting": "/images/trading_vesting_unlock_schedule_premium_1770923125655.png",
+    "mev--miner-extractable-value---maximum-extractable-value-": "/images/trading_mev_extraction_premium_v3_1770923166602.png",
+    "wrapped-assets": "/images/trading_wrapped_assets_bridged_premium_v4_retry_1770923219348.png",
+    "fix-protocol": "/images/trading_fix_protocol_data_bridge_premium_1770923303143.png",
+    "fix-fast": "/images/trading_fix_fast_high_performance_premium_v2_1770923345442.png",
+    "plaza2": "/images/trading_plaza2_exchange_protocol_premium_v2_1770923364375.png",
+    "liquidity-mining": "/images/trading_liquidity_mining_reward_premium_v3_retry_1770923397696.png",
+    "instrument": "/images/trading_instrument_terminal_focus_v2_premium_1770923462404.png",
+    "s5fi": "/images/trading_s5fi_market_breadth_v2_premium_1770923485685.png",
+    "s5th": "/images/trading_s5th_long_term_breadth_premium_1770923588123.png",
+    "vxn": "/images/trading_vxn_nasdaq_fear_v2_premium_1770923509823.png",
+    "us10y---us02y": "/images/trading_yield_curve_spread_balance_v2_premium_1770923530823.png",
+    "bot-instance": "/images/trading_bot_instance_live_execution_premium_1770923568312.png"
 }
 
 output = """export interface Term {

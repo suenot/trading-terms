@@ -104,7 +104,7 @@ export const categories: Category[] = [
           "ru": "конкретная торговая пара, привязанная к конкретному рынку (а значит и конкретной бирже)",
           "zh": "绑定到特定市场（因此绑定到特定交易所）的特定交易对"
         },
-        "image": "/images/trading_instrument_terminal_1770907737898.png"
+        "image": "/images/trading_instrument_terminal_focus_v2_premium_1770923462404.png"
       },
       {
         "id": "portfolio",
@@ -187,7 +187,8 @@ export const categories: Category[] = [
           "en": "an instance of a bot that takes a strategy and portfolio as input and generates trading orders",
           "ru": "экземпляр бота, принимает на вход стратегию и портфолио, генерирует торговые ордера",
           "zh": "机器人的实例，接受策略和投资组合作为输入，生成交易订单"
-        }
+        },
+        "image": "/images/trading_bot_instance_live_execution_premium_1770923568312.png"
       }
     ]
   },
@@ -315,7 +316,8 @@ export const categories: Category[] = [
           "en": "percentage of S&P500 stocks trading above their 50-day moving average; important indicator of market overbought/oversold conditions.",
           "ru": "percentage of S&P500 stocks trading above their 50-day moving average; important indicator of market overbought/oversold conditions.",
           "zh": "在50日移动平均线之上交易的标普500股票百分比；市场超买/超卖状况的重要指标。"
-        }
+        },
+        "image": "/images/trading_s5fi_market_breadth_v2_premium_1770923485685.png"
       },
       {
         "id": "s5th",
@@ -328,7 +330,8 @@ export const categories: Category[] = [
           "en": "percentage of S&P500 stocks above their 200-day moving average; indicator of long-term trend health.",
           "ru": "percentage of S&P500 stocks above their 200-day moving average; indicator of long-term trend health.",
           "zh": "在200日移动平均线之上的标普500股票百分比；长期趋势健康指标。"
-        }
+        },
+        "image": "/images/trading_s5th_long_term_breadth_premium_1770923588123.png"
       },
       {
         "id": "vxn",
@@ -341,7 +344,8 @@ export const categories: Category[] = [
           "en": "Nasdaq volatility index.",
           "ru": "Nasdaq volatility index.",
           "zh": "纳斯达克波动率指数。"
-        }
+        },
+        "image": "/images/trading_vxn_nasdaq_fear_v2_premium_1770923509823.png"
       },
       {
         "id": "us10y---us02y",
@@ -354,7 +358,8 @@ export const categories: Category[] = [
           "en": "US government bond yields, help assess market sentiment and risks.",
           "ru": "US government bond yields, help assess market sentiment and risks.",
           "zh": "美国政府债券收益率，帮助评估市场情绪和风险。"
-        }
+        },
+        "image": "/images/trading_yield_curve_spread_balance_v2_premium_1770923530823.png"
       },
       {
         "id": "dxy",
@@ -3097,7 +3102,8 @@ export const categories: Category[] = [
           "en": "the Financial Information eXchange protocol, a widely used electronic communications protocol for real-time exchange of securities transactions and market data between financial institutions.",
           "ru": "тип фьючерсных контрактов без даты истечения срока действия",
           "zh": "金融信息交换协议，金融机构间实时交换证券交易和市场数据的广泛使用的电子通信协议。"
-        }
+        },
+        "image": "/images/trading_fix_protocol_data_bridge_premium_1770923303143.png"
       },
       {
         "id": "fix-fast",
@@ -3110,7 +3116,8 @@ export const categories: Category[] = [
           "en": "a high-performance binary encoding protocol developed as an extension to FIX, designed to reduce bandwidth and latency for market data and trading messages.",
           "ru": "регулярные платежи между держателями длинных и коротких позиций по бессрочным фьючерсам",
           "zh": "作为FIX扩展开发的高性能二进制编码协议，旨在减少市场数据和交易消息的带宽和延迟。"
-        }
+        },
+        "image": "/images/trading_fix_fast_high_performance_premium_v2_1770923345442.png"
       },
       {
         "id": "plaza2",
@@ -3123,7 +3130,8 @@ export const categories: Category[] = [
           "en": "a proprietary high-speed trading and market data protocol used by the Moscow Exchange, optimized for low-latency electronic trading environments.",
           "ru": "отражает общее число открытых контрактов (фьючерсов/опционов), которые не были закрыты или исполнены. Рассчитывается как общее количество действующих открытых позиций:",
           "zh": "莫斯科交易所使用的专有高速交易和市场数据协议，针对低延迟电子交易环境优化。"
-        }
+        },
+        "image": "/images/trading_plaza2_exchange_protocol_premium_v2_1770923364375.png"
       }
     ]
   },
@@ -3160,7 +3168,8 @@ export const categories: Category[] = [
           "en": "an automated market maker used in DEXs",
           "ru": "индекс технологического сектора США. Крупные технологические компании оказывают значительное влияние на общемировой рынок.",
           "zh": "DEX中使用的自动做市商"
-        }
+        },
+        "image": "/images/trading_amm_premium_v3_fixed_1770922988706.png"
       },
       {
         "id": "liquidity-pool",
@@ -3173,7 +3182,8 @@ export const categories: Category[] = [
           "en": "a pool of liquidity in decentralized protocols",
           "ru": "индекс волатильности, часто называемый «индексом страха». Высокие значения указывают на растущую панику и вероятность снижения рынка, низкие — на спокойную фазу.",
           "zh": "去中心化协议中的流动性池"
-        }
+        },
+        "image": "/images/trading_liquidity_pool_glass_v3_1770922916237.png"
       },
       {
         "id": "impermanent-loss",
@@ -3186,7 +3196,8 @@ export const categories: Category[] = [
           "en": "temporary value loss when providing liquidity in AMMs",
           "ru": "индекс, отражающий состояние промышленного сектора США.",
           "zh": "在AMM中提供流动性时的临时价值损失"
-        }
+        },
+        "image": "/images/trading_impermanent_loss_v3_premium_1770923012126.png"
       },
       {
         "id": "yield-farming",
@@ -3199,7 +3210,8 @@ export const categories: Category[] = [
           "en": "the process of earning rewards (often in the form of additional tokens) for providing liquidity or staking cryptocurrencies in DeFi protocols.",
           "ru": "индекс малых компаний, часто используется для анализа трендов \"второго эшелона\" и ротации в экономике.",
           "zh": "为在DeFi协议中提供流动性或质押加密货币而赚取奖励（通常以额外代币形式）的过程。"
-        }
+        },
+        "image": "/images/trading_yield_farming_harvest_v3_1770922942130.png"
       },
       {
         "id": "staking",
@@ -3226,7 +3238,8 @@ export const categories: Category[] = [
           "en": "a type of yield farming where users receive protocol governance tokens in exchange for providing liquidity.",
           "ru": "волатильность на волатильность VIX.",
           "zh": "一种收益农场类型，用户因提供流动性而获得协议治理代币。"
-        }
+        },
+        "image": "/images/trading_liquidity_mining_reward_premium_v3_retry_1770923397696.png"
       },
       {
         "id": "wrapped-assets",
@@ -3239,7 +3252,8 @@ export const categories: Category[] = [
           "en": "tokens that represent an asset from another blockchain. For example, Wrapped Bitcoin (wBTC) is an ERC-20 token whose value is pegged to Bitcoin, allowing BTC to be used in the Ethereum DeFi ecosystem.",
           "ru": "доля акций S&P500, торгующихся выше своей 50-дневной скользящей средней; важный индикатор перекупленности/перепроданности рынка.",
           "zh": "代表另一个区块链资产的代币。例如，包装比特币（wBTC）是一个价值与比特币挂钩的ERC-20代币，允许BTC在以太坊DeFi生态系统中使用。"
-        }
+        },
+        "image": "/images/trading_wrapped_assets_bridged_premium_v4_retry_1770923219348.png"
       },
       {
         "id": "oracles",
@@ -3252,7 +3266,8 @@ export const categories: Category[] = [
           "en": "services that supply smart contracts with real-world data (e.g., currency exchange rates, sports event outcomes) necessary for their correct operation.",
           "ru": "доля акций S&P500 выше своей 200-дневной скользящей средней; показатель состояния долгосрочного тренда.",
           "zh": "为智能合约提供现实世界数据（例如货币汇率、体育赛事结果）的服务，这些数据对其正确运行是必要的。"
-        }
+        },
+        "image": "/images/trading_oracles_data_bridge_premium_1770923035292.png"
       },
       {
         "id": "flash-loans",
@@ -3265,7 +3280,8 @@ export const categories: Category[] = [
           "en": "a special type of uncollateralized loans in DeFi that must be borrowed and repaid within a single blockchain transaction. Used for arbitrage, refinancing, and other complex operations.",
           "ru": "индекс волатильности на Nasdaq.",
           "zh": "DeFi中特殊类型的无抵押贷款，必须在单个区块链交易内借入和偿还。用于套利、再融资和其他复杂操作。"
-        }
+        },
+        "image": "/images/trading_flash_loans_instant_burst_premium_1770923058450.png"
       },
       {
         "id": "mev--miner-extractable-value---maximum-extractable-value-",
@@ -3278,7 +3294,8 @@ export const categories: Category[] = [
           "en": "the maximum value that miners (in Proof-of-Work networks) or validators (in Proof-of-Stake networks) can extract from block production beyond the standard block reward and transaction fees, by including, excluding, or reordering transactions within a block.",
           "ru": "доходности государственных облигаций США, помогают оценить настроения и риски на рынке.",
           "zh": "矿工（在工作量证明网络中）或验证者（在权益证明网络中）通过在区块内包含、排除或重新排序交易，除了标准区块奖励和交易费用之外，可以从区块生产中提取的最大价值。"
-        }
+        },
+        "image": "/images/trading_mev_extraction_premium_v3_1770923166602.png"
       },
       {
         "id": "minting",
@@ -3291,7 +3308,8 @@ export const categories: Category[] = [
           "en": "the process of creating new tokens. This can occur according to a predefined algorithm (e.g., in Proof-of-Stake during staking) or by the decision of the project team.",
           "ru": "индекс доллара США. Рост DXY на фоне снижения акций часто указывает на бегство в \"качество\".",
           "zh": "创建新代币的过程。这可以根据预定义算法（例如在权益证明中质押期间）或项目团队决定发生。"
-        }
+        },
+        "image": "/images/trading_minting_new_tokens_premium_v2_1770923101089.png"
       },
       {
         "id": "vesting",
@@ -3304,7 +3322,8 @@ export const categories: Category[] = [
           "en": "the process of gradually unlocking tokens distributed to the project team, advisors, or early investors. Usually occurs on a specific schedule to prevent a sharp drop in token price.",
           "ru": "наиболее популярные технические индикаторы для анализа трендов, силы движения, зон перекупленности/перепроданности.",
           "zh": "逐步解锁分发给项目团队、顾问或早期投资者的代币的过程。通常按特定时间表进行以防止代币价格急剧下跌。"
-        }
+        },
+        "image": "/images/trading_vesting_unlock_schedule_premium_1770923125655.png"
       },
       {
         "id": "token-burn",
