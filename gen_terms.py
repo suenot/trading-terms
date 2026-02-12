@@ -121,7 +121,15 @@ image_map = {
     "harmonic-patterns": "/images/trading_harmonic_patterns_geometry_premium_1770929710390.png",
     "tick-size": "/images/trading_tick_size_granularity_premium_1770929764494.png",
     "price-gap": "/images/trading_price_gap_shattered_flow_premium_1770929785192.png",
-    "market-impact": "/images/trading_market_impact_ripple_premium_1770929813167.png"
+    "market-impact": "/images/trading_market_impact_ripple_premium_1770929813167.png",
+    "nasdaq-100---qqq---ndx-": "/images/trading_nasdaq_100_tech_tower_premium_1770930528621.png",
+    "seasonality-and-key-events": "/images/trading_seasonality_calendar_cycle_premium_1770930548583.png",
+    "stop-order": "/images/trading_stop_order_digital_sign_premium_1770930566781.png",
+    "market-depth": "/images/trading_market_depth_order_mountains_premium_1770930586049.png",
+    "bid": "/images/trading_bid_buyer_hand_demand_premium_1770930606316.png",
+    "ask-offer": "/images/trading_ask_seller_hand_supply_premium_1770930625426.png",
+    "volume-indicators": "/images/trading_volume_indicators_energy_skyscrapers_premium_1770930661867.png",
+    "momentum-indicators": "/images/trading_momentum_indicators_tachometer_premium_1770930677230.png"
 }
 
 output = """export interface Term {

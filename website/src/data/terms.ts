@@ -234,7 +234,8 @@ export const categories: Category[] = [
           "en": "US technology sector index. Large technology companies have significant influence on the global market.",
           "ru": "US technology sector index. Large technology companies have significant influence on the global market.",
           "zh": "美国科技板块指数。大型科技公司对全球市场有重大影响。"
-        }
+        },
+        "image": "/images/trading_nasdaq_100_tech_tower_premium_1770930528621.png"
       },
       {
         "id": "vix",
@@ -412,7 +413,8 @@ export const categories: Category[] = [
           "en": "seasonal return variations, \"witching Friday\" and other calendar effects.",
           "ru": "seasonal return variations, \"witching Friday\" and other calendar effects.",
           "zh": "季节性回报变化、\"巫婆星期五\"和其他日历效应。"
-        }
+        },
+        "image": "/images/trading_seasonality_calendar_cycle_premium_1770930548583.png"
       },
       {
         "id": "order-book-imbalance",
@@ -742,7 +744,8 @@ export const categories: Category[] = [
           "en": "an order that activates when a certain price is reached",
           "ru": "индикатор, показывающий взаимосвязь между двумя скользящими средними",
           "zh": "达到特定价格时激活的订单"
-        }
+        },
+        "image": "/images/trading_stop_order_digital_sign_premium_1770930566781.png"
       },
       {
         "id": "stop-limit-order",
@@ -1250,7 +1253,8 @@ export const categories: Category[] = [
           "en": "OBV (On-Balance Volume), Volume Profile, CVD (Cumulative Volume Delta)",
           "ru": "OBV (On-Balance Volume), Volume Profile, CVD (Cumulative Volume Delta)",
           "zh": "OBV（能量潮）、成交量分布、CVD（累积成交量差）"
-        }
+        },
+        "image": "/images/trading_volume_indicators_energy_skyscrapers_premium_1770930661867.png"
       },
       {
         "id": "cumulative-volume-delta--cvd-",
@@ -1276,7 +1280,8 @@ export const categories: Category[] = [
           "en": "Momentum, Rate of Change (ROC)",
           "ru": "Momentum, Rate of Change (ROC)",
           "zh": "动量、变化率（ROC）"
-        }
+        },
+        "image": "/images/trading_momentum_indicators_tachometer_premium_1770930677230.png"
       },
       {
         "id": "fibonacci-levels",
@@ -1567,7 +1572,8 @@ export const categories: Category[] = [
           "en": "the market's ability to absorb large orders without significant price changes",
           "ru": "процедуры и автоматические проверки платёжеспособности трейдера или компании до отправки ордера",
           "zh": "市场吸收大额订单而不发生重大价格变化的能力"
-        }
+        },
+        "image": "/images/trading_market_depth_order_mountains_premium_1770930586049.png"
       },
       {
         "id": "support",
@@ -1650,7 +1656,8 @@ export const categories: Category[] = [
           "en": "the maximum price at which a trader is willing to buy an asset",
           "ru": "the maximum price at which a trader is willing to buy an asset",
           "zh": "交易者愿意买入资产的最高价格"
-        }
+        },
+        "image": "/images/trading_bid_buyer_hand_demand_premium_1770930606316.png"
       },
       {
         "id": "ask-offer",
@@ -1663,7 +1670,8 @@ export const categories: Category[] = [
           "en": "the minimum price at which a trader is willing to sell an asset",
           "ru": "the minimum price at which a trader is willing to sell an asset",
           "zh": "交易者愿意卖出资产的最低价格"
-        }
+        },
+        "image": "/images/trading_ask_seller_hand_supply_premium_1770930625426.png"
       },
       {
         "id": "spread",
