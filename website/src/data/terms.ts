@@ -219,7 +219,8 @@ export const categories: Category[] = [
           "en": "the main US stock market index reflecting the performance of 500 largest companies. Often used as a baseline reference for analyzing overall market direction.",
           "ru": "the main US stock market index reflecting the performance of 500 largest companies. Often used as a baseline reference for analyzing overall market direction.",
           "zh": "反映500家最大公司表现的美国主要股票市场指数。通常用作分析整体市场方向的基准参考。"
-        }
+        },
+        "image": "/images/trading_spy_sp500_index_1770918359811.png"
       },
       {
         "id": "nasdaq-100---qqq---ndx-",
@@ -363,7 +364,8 @@ export const categories: Category[] = [
           "en": "US Dollar Index. DXY growth amid declining stocks often indicates flight to \"quality\".",
           "ru": "US Dollar Index. DXY growth amid declining stocks often indicates flight to \"quality\".",
           "zh": "美元指数。在股票下跌时DXY增长通常表示资金流向\"避险\"资产。"
-        }
+        },
+        "image": "/images/trading_dxy_dollar_index_1770919227344.png"
       },
       {
         "id": "macd--rsi--ema--ma",

@@ -28,7 +28,8 @@ image_map = {
     "liquidation": "/images/trading_liquidation_implosion_1770917818346.png",
     "spread": "/images/trading_spread_gap_1770917878921.png",
     "slippage": "/images/trading_slippage_execution_1770917962029.png",
-    "sp500---spy---spx-": "/images/trading_spy_sp500_index_1770918359811.png"
+    "sp500---spy---spx-": "/images/trading_spy_sp500_index_1770918359811.png",
+    "dxy": "/images/trading_dxy_dollar_index_1770919227344.png"
 }
 
 output = """export interface Term {
