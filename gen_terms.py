@@ -72,7 +72,22 @@ image_map = {
     "s5th": "/images/trading_s5th_long_term_breadth_premium_1770923588123.png",
     "vxn": "/images/trading_vxn_nasdaq_fear_v2_premium_1770923509823.png",
     "us10y---us02y": "/images/trading_yield_curve_spread_balance_v2_premium_1770923530823.png",
-    "bot-instance": "/images/trading_bot_instance_live_execution_premium_1770923568312.png"
+    "bot-instance": "/images/trading_bot_instance_live_execution_premium_1770923568312.png",
+    "support": "/images/trading_support_resistance_barriers_premium_1770924773286.png",
+    "resistance": "/images/trading_support_resistance_barriers_premium_1770924773286.png",
+    "high-frequency-trading": "/images/trading_hft_light_speed_execution_premium_1770924797543.png",
+    "dark-pools": "/images/trading_dark_pool_hidden_liquidity_premium_v2_1770924840215.png",
+    "scalping": "/images/trading_scalping_ultra_fast_execution_v2_premium_1770924947989.png",
+    "swing-trading": "/images/trading_swing_trading_pendulum_momentum_premium_1770925009791.png",
+    "open-interest": "/images/trading_open_interest_glowing_contracts_premium_1770925098599.png",
+    "fundamental-analysis": "/images/trading_fundamental_analysis_deep_dive_v3_premium_1770925660117.png",
+    "trend": "/images/trading_trendline_momentum_vector_v3_premium_1770924985734.png",
+    "whale": "/images/trading_whale_market_giant_premium_1770925463837.png",
+    "rest-api": "/images/trading_rest_api_endpoint_premium_1770925486840.png",
+    "market-microstructure": "/images/trading_market_microstructure_data_crystals_v2_premium_1770925527114.png",
+    "institutional-trader": "/images/trading_institutional_trader_tech_boardroom_v2_premium_1770925551939.png",
+    "fibonacci-levels": "/images/trading_fibonacci_levels_golden_ratio_premium_1770925572306.png",
+    "bollinger-bands": "/images/trading_bollinger_bands_volatility_envelope_premium_1770925592703.png"
 }
 
 output = """export interface Term {

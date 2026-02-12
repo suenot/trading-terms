@@ -1224,7 +1224,8 @@ export const categories: Category[] = [
           "en": "a volatility indicator consisting of a moving average and two standard deviations",
           "ru": "a volatility indicator consisting of a moving average and two standard deviations",
           "zh": "由移动平均线和两个标准差组成的波动率指标"
-        }
+        },
+        "image": "/images/trading_bollinger_bands_volatility_envelope_premium_1770925592703.png"
       },
       {
         "id": "volume-indicators",
@@ -1276,7 +1277,8 @@ export const categories: Category[] = [
           "en": "a technical analysis tool based on Fibonacci numbers",
           "ru": "a technical analysis tool based on Fibonacci numbers",
           "zh": "基于斐波那契数列的技术分析工具"
-        }
+        },
+        "image": "/images/trading_fibonacci_levels_golden_ratio_premium_1770925572306.png"
       },
       {
         "id": "elliott-waves",
@@ -1338,7 +1340,8 @@ export const categories: Category[] = [
           "en": "a method of assessing an asset's intrinsic (fair) value by examining economic, financial, and other qualitative and quantitative factors. In cryptocurrencies, this may include analyzing the project, team, technology, tokenomics, community, and overall market conditions.",
           "ru": "участник рынка, целенаправленно воздействующий на цену актива для получения прибыли от изменения цены. Основные стратегии:",
           "zh": "通过检查经济、金融和其他定性和定量因素评估资产内在（公允）价值的方法。在加密货币中，这可能包括分析项目、团队、技术、代币经济学、社区和整体市场条件。"
-        }
+        },
+        "image": "/images/trading_fundamental_analysis_deep_dive_v3_premium_1770925660117.png"
       },
       {
         "id": "sentimental-analysis",
@@ -1453,7 +1456,8 @@ export const categories: Category[] = [
           "en": "a financial organization (bank, hedge fund, investment fund) trading in large volumes. Has significant resources, information, and can influence the market.",
           "ru": "метод анализа, при котором портфель или стратегия оцениваются в гипотетических экстремальных, но правдоподобных рыночных сценариях",
           "zh": "大量交易的金融组织（银行、对冲基金、投资基金）。拥有重要资源、信息，可以影响市场。"
-        }
+        },
+        "image": "/images/trading_institutional_trader_tech_boardroom_v2_premium_1770925551939.png"
       },
       {
         "id": "retail-trader",
@@ -1505,7 +1509,8 @@ export const categories: Category[] = [
           "en": "a market participant with extremely large funds who can significantly influence the price of an asset with their operations.",
           "ru": "постоянный мониторинг торговой активности и поведения рынка для выявления и предотвращения манипуляций",
           "zh": "拥有极大资金的市场参与者，其操作可以显著影响资产价格。"
-        }
+        },
+        "image": "/images/trading_whale_market_giant_premium_1770925463837.png"
       },
       {
         "id": "liquidity",
@@ -1558,7 +1563,8 @@ export const categories: Category[] = [
           "en": "a price level where demand is strong enough to prevent further price decline",
           "ru": "максимальный допустимый размер позиции по активу или рынку",
           "zh": "需求足够强劲以防止价格进一步下跌的价格水平"
-        }
+        },
+        "image": "/images/trading_support_resistance_barriers_premium_1770924773286.png"
       },
       {
         "id": "resistance",
@@ -1571,7 +1577,8 @@ export const categories: Category[] = [
           "en": "a price level where supply is strong enough to prevent further price increases",
           "ru": "ограничение на количество ордеров, которые можно отправить за определённый период",
           "zh": "供应足够强劲以防止价格进一步上涨的价格水平"
-        }
+        },
+        "image": "/images/trading_support_resistance_barriers_premium_1770924773286.png"
       },
       {
         "id": "price-gap",
@@ -1611,7 +1618,8 @@ export const categories: Category[] = [
           "en": "the general direction of an asset's price movement:",
           "ru": "автоматизированный процесс корректировки состава и долей активов в портфеле с помощью алгоритмов",
           "zh": "资产价格变动的总体方向："
-        }
+        },
+        "image": "/images/trading_trendline_momentum_vector_v3_premium_1770924985734.png"
       },
       {
         "id": "bid",
@@ -2114,7 +2122,8 @@ export const categories: Category[] = [
           "en": "algorithmic trading with very high speed and a large number of trades",
           "ru": "algorithmic trading with very high speed and a large number of trades",
           "zh": "以极高速度和大量交易进行的算法交易"
-        }
+        },
+        "image": "/images/trading_hft_light_speed_execution_premium_1770924797543.png"
       },
       {
         "id": "high-frequency-trading-circuit-breakers",
@@ -2232,7 +2241,8 @@ export const categories: Category[] = [
           "en": "a short-term trading strategy aimed at making multiple small profits over short time intervals",
           "ru": "a short-term trading strategy aimed at making multiple small profits over short time intervals",
           "zh": "旨在在短时间间隔内获得多个小额利润的短期交易策略"
-        }
+        },
+        "image": "/images/trading_scalping_ultra_fast_execution_v2_premium_1770924947989.png"
       },
       {
         "id": "swing-trading",
@@ -2245,7 +2255,8 @@ export const categories: Category[] = [
           "en": "a medium-term strategy where positions are held from several days to several weeks",
           "ru": "a medium-term strategy where positions are held from several days to several weeks",
           "zh": "持仓几天到几周的中期策略"
-        }
+        },
+        "image": "/images/trading_swing_trading_pendulum_momentum_premium_1770925009791.png"
       },
       {
         "id": "position-trading",
@@ -2346,7 +2357,8 @@ export const categories: Category[] = [
           "en": "represents the total number of open contracts (futures/options) that have not been closed or exercised. Calculated as the total number of active open positions:",
           "ru": "показатель эффективности инвестиций с учетом риска",
           "zh": "代表尚未平仓或行权的开放合约（期货/期权）总数。计算为活跃开放仓位的总数："
-        }
+        },
+        "image": "/images/trading_open_interest_glowing_contracts_premium_1770925098599.png"
       },
       {
         "id": "initial-margin",
@@ -2474,7 +2486,8 @@ export const categories: Category[] = [
           "en": "the study of the process and outcomes of exchanging assets under explicit trading rules, focusing on how specific trading mechanisms affect price formation, liquidity, transaction costs, and market efficiency.",
           "ru": "размещение торговых серверов в непосредственной близости от биржевых",
           "zh": "研究在明确交易规则下交换资产的过程和结果，专注于特定交易机制如何影响价格形成、流动性、交易成本和市场效率。"
-        }
+        },
+        "image": "/images/trading_market_microstructure_data_crystals_v2_premium_1770925527114.png"
       },
       {
         "id": "order-flow",
@@ -2526,7 +2539,8 @@ export const categories: Category[] = [
           "en": "private exchanges or trading venues where financial instruments are traded without displaying quotes publicly, allowing large blocks of securities to be bought or sold anonymously to minimize market impact.",
           "ru": "private exchanges or trading venues where financial instruments are traded without displaying quotes publicly, allowing large blocks of securities to be bought or sold anonymously to minimize market impact.",
           "zh": "在不公开显示报价的情况下交易金融工具的私人交易所或交易场所，允许大宗证券匿名买卖以最小化市场影响。"
-        }
+        },
+        "image": "/images/trading_dark_pool_hidden_liquidity_premium_v2_1770924840215.png"
       },
       {
         "id": "liquidity-fragmentation",
@@ -3053,7 +3067,8 @@ export const categories: Category[] = [
           "en": "a web service interface based on Representational State Transfer principles, enabling programmatic access to trading and market data using standard HTTP methods.",
           "ru": "a web service interface based on Representational State Transfer principles, enabling programmatic access to trading and market data using standard HTTP methods.",
           "zh": "基于表述性状态转移原则的网络服务接口，使用标准HTTP方法启用对交易和市场数据的程序化访问。"
-        }
+        },
+        "image": "/images/trading_rest_api_endpoint_premium_1770925486840.png"
       },
       {
         "id": "grpc",
