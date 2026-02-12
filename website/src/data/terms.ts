@@ -2076,7 +2076,8 @@ export const categories: Category[] = [
           "en": "the unethical or illegal practice of executing orders on a security for one's own account while taking advantage of advance knowledge of pending orders from clients or the market, typically to profit from the anticipated price movement.",
           "ru": "the unethical or illegal practice of executing orders on a security for one's own account while taking advantage of advance knowledge of pending orders from clients or the market, typically to profit from the anticipated price movement.",
           "zh": "在知道客户或市场待处理订单的情况下为自己账户执行证券订单的不道德或非法行为，通常为了从预期价格变动中获利。"
-        }
+        },
+        "image": "/images/trading_front_running_fast_runner_premium_1770933294089.png"
       },
       {
         "id": "algorithmic-portfolio-rebalancing",
@@ -2089,7 +2090,8 @@ export const categories: Category[] = [
           "en": "an automated process of adjusting the composition and weights of assets in a portfolio using algorithms to maintain a desired asset allocation or follow a specific investment strategy.",
           "ru": "an automated process of adjusting the composition and weights of assets in a portfolio using algorithms to maintain a desired asset allocation or follow a specific investment strategy.",
           "zh": "使用算法自动调整投资组合中资产组成和权重以维持期望资产配置或遵循特定投资策略的过程。"
-        }
+        },
+        "image": "/images/trading_portfolio_rebalancing_cubes_premium_v2_1770933310692.png"
       }
     ]
   },
@@ -2112,7 +2114,8 @@ export const categories: Category[] = [
           "en": "an interface allowing programmatic interaction with an exchange",
           "ru": "анализ последовательности поступающих на рынок ордеров",
           "zh": "允许与交易所进行程序化交互的接口"
-        }
+        },
+        "image": "/images/trading_api_interface_connectivity_premium_v2_1770933326568.png"
       },
       {
         "id": "websocket",
@@ -2139,7 +2142,8 @@ export const categories: Category[] = [
           "en": "the maximum number of API requests to an exchange over a specific period",
           "ru": "изменение цены в результате исполнения крупного ордера",
           "zh": "特定时期内对交易所的最大API请求数"
-        }
+        },
+        "image": "/images/trading_rate_limit_throttle_glass_premium_v2_1770933342645.png"
       },
       {
         "id": "backtesting",
@@ -2179,7 +2183,8 @@ export const categories: Category[] = [
           "en": "excessive optimization of a strategy to historical data, which may lead to poor results in the real market",
           "ru": "excessive optimization of a strategy to historical data, which may lead to poor results in the real market",
           "zh": "对历史数据的过度优化，可能导致实际市场中的糟糕结果"
-        }
+        },
+        "image": "/images/trading_overfitting_noise_graph_premium_v2_1770933360256.png"
       },
       {
         "id": "algorithmic-trading",
@@ -2192,7 +2197,8 @@ export const categories: Category[] = [
           "en": "using computer algorithms to automatically execute trading operations",
           "ru": "using computer algorithms to automatically execute trading operations",
           "zh": "使用计算机算法自动执行交易操作"
-        }
+        },
+        "image": "/images/trading_algorithmic_trading_brain_premium_v2_1770933380464.png"
       },
       {
         "id": "high-frequency-trading",
@@ -2219,7 +2225,8 @@ export const categories: Category[] = [
           "en": "mechanisms or rules designed to temporarily halt or slow down high-frequency trading activities during periods of extreme market volatility to prevent flash crashes or systemic disruptions.",
           "ru": "mechanisms or rules designed to temporarily halt or slow down high-frequency trading activities during periods of extreme market volatility to prevent flash crashes or systemic disruptions.",
           "zh": "在极端市场波动期间暂时停止或放慢高频交易活动的机制或规则，以防止闪崩或系统性干扰。"
-        }
+        },
+        "image": "/images/trading_hft_circuit_breaker_fuse_premium_v2_1770933398061.png"
       },
       {
         "id": "hft-order-anticipation-strategies",
@@ -2245,7 +2252,8 @@ export const categories: Category[] = [
           "en": "a high-frequency trading tactic involving the rapid submission and cancellation of a large number of orders to create confusion or delay in the market, often to gain a competitive advantage.",
           "ru": "a high-frequency trading tactic involving the rapid submission and cancellation of a large number of orders to create confusion or delay in the market, often to gain a competitive advantage.",
           "zh": "涉及快速提交和取消大量订单以在市场中制造混乱或延迟的高频交易策略，通常为了获得竞争优势。"
-        }
+        },
+        "image": "/images/trading_quote_stuffing_overflow_premium_v2_1770933417152.png"
       },
       {
         "id": "hft-momentum-ignition",

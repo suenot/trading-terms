@@ -181,7 +181,15 @@ image_map = {
     "market-access-controls": "/images/trading_market_access_controls_key_premium_1770933111261.png",
     "self-match-prevention": "/images/trading_self_match_prevention_magnet_premium_1770933130631.png",
     "order-frequency-limit": "/images/trading_order_frequency_limit_metronome_premium_1770933149460.png",
-    "order-value-limit": "/images/trading_order_value_limit_scale_premium_1770933168233.png"
+    "order-value-limit": "/images/trading_order_value_limit_scale_premium_1770933168233.png",
+    "front-running": "/images/trading_front_running_fast_runner_premium_1770933294089.png",
+    "algorithmic-portfolio-rebalancing": "/images/trading_portfolio_rebalancing_cubes_premium_v2_1770933310692.png",
+    "api--application-programming-interface-": "/images/trading_api_interface_connectivity_premium_v2_1770933326568.png",
+    "rate-limit": "/images/trading_rate_limit_throttle_glass_premium_v2_1770933342645.png",
+    "overfitting": "/images/trading_overfitting_noise_graph_premium_v2_1770933360256.png",
+    "algorithmic-trading": "/images/trading_algorithmic_trading_brain_premium_v2_1770933380464.png",
+    "high-frequency-trading-circuit-breakers": "/images/trading_hft_circuit_breaker_fuse_premium_v2_1770933398061.png",
+    "hft-quote-stuffing": "/images/trading_quote_stuffing_overflow_premium_v2_1770933417152.png"
 }
 
 output = """export interface Term {
