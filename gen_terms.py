@@ -104,7 +104,17 @@ image_map = {
     "taker": "/images/trading_maker_taker_liquidity_balance_premium_1770926815464.png",
     "day-trading": "/images/trading_day_trading_high_speed_clock_premium_1770926845012.png",
     "position-size": "/images/trading_position_sizing_precise_allocation_premium_1770926872751.png",
-    "hedging": "/images/trading_hedging_offsetting_positions_v2_premium_1770926915964.png"
+    "position-size": "/images/trading_position_sizing_precise_allocation_premium_1770926872751.png",
+    "hedging": "/images/trading_hedging_offsetting_positions_v2_premium_1770926915964.png",
+    "moving-average": "/images/trading_moving_average_smooth_flow_premium_1770927117296.png",
+    "rsi--relative-strength-index-": "/images/trading_rsi_oscillator_boundaries_premium_1770927140853.png",
+    "elliott-waves": "/images/trading_elliott_waves_crystal_peaks_v2_premium_1770927188740.png",
+    "order-flow": "/images/trading_order_flow_energy_streams_v3_premium_1770927234302.png",
+    "trailing-stop": "/images/trading_trailing_stop_barrier_laser_v2_premium_1770927298445.png",
+    "stop-limit-order": "/images/trading_stop_limit_order_gate_premium_1770927352685.png",
+    "oco--one-cancels-other-": "/images/trading_oco_order_linked_nexus_premium_1770927392079.png",
+    "block-order-execution": "/images/trading_block_order_solid_execution_premium_1770927439138.png",
+    "sentimental-analysis": "/images/trading_sentiment_analysis_brain_hologram_v3_premium_1770927487566.png"
 }
 
 output = """export interface Term {

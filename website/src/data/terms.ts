@@ -755,7 +755,8 @@ export const categories: Category[] = [
           "en": "a combination of stop and limit orders",
           "ru": "индикатор волатильности, состоящий из скользящей средней и двух стандартных отклонений",
           "zh": "止损和限价订单的组合"
-        }
+        },
+        "image": "/images/trading_stop_limit_order_gate_premium_1770927352685.png"
       },
       {
         "id": "take-profit",
@@ -796,7 +797,8 @@ export const categories: Category[] = [
           "en": "a dynamic stop loss that follows the price when it moves in a favorable direction",
           "ru": "Momentum, Rate of Change (ROC)",
           "zh": "价格朝有利方向移动时跟随的动态止损"
-        }
+        },
+        "image": "/images/trading_trailing_stop_barrier_laser_v2_premium_1770927298445.png"
       },
       {
         "id": "oco--one-cancels-other-",
@@ -809,7 +811,8 @@ export const categories: Category[] = [
           "en": "a pair of linked orders where execution of one automatically cancels the other",
           "ru": "инструмент технического анализа, основанный на числах Фибоначчи",
           "zh": "一对链接订单，其中一个的执行自动取消另一个"
-        }
+        },
+        "image": "/images/trading_oco_order_linked_nexus_premium_1770927392079.png"
       },
       {
         "id": "iceberg-order",
@@ -888,7 +891,8 @@ export const categories: Category[] = [
           "en": "the process of executing large orders (block orders) often outside the public order book or through specialized mechanisms to minimize market impact and price slippage.",
           "ru": "the process of executing large orders (block orders) often outside the public order book or through specialized mechanisms to minimize market impact and price slippage.",
           "zh": "通常在公共订单簿外或通过专门机制执行大型订单（大宗订单）的过程，以最小化市场影响和价格滑点。"
-        }
+        },
+        "image": "/images/trading_block_order_solid_execution_premium_1770927439138.png"
       },
       {
         "id": "long-position",
@@ -1190,7 +1194,8 @@ export const categories: Category[] = [
           "en": "an indicator that smooths price fluctuations to identify trends",
           "ru": "метод прогнозирования будущего изменения цен на основе изучения прошлых изменений цен и объемов торгов. Использует графики, паттерны, индикаторы.",
           "zh": "平滑价格波动以识别趋势的指标"
-        }
+        },
+        "image": "/images/trading_moving_average_smooth_flow_premium_1770927117296.png"
       },
       {
         "id": "rsi--relative-strength-index-",
@@ -1203,7 +1208,8 @@ export const categories: Category[] = [
           "en": "an oscillator measuring the speed and change of price movements",
           "ru": "метод оценки внутренней (справедливой) стоимости актива путем изучения экономических, финансовых и других качественных и количественных факторов. В криптовалютах это может включать анализ проекта, команды, технологии, токеномики, сообщества и общей рыночной конъюнктуры.",
           "zh": "测量价格变动速度和变化的振荡器"
-        }
+        },
+        "image": "/images/trading_rsi_oscillator_boundaries_premium_1770927140853.png"
       },
       {
         "id": "macd--moving-average-convergence-divergence-",
@@ -1296,7 +1302,8 @@ export const categories: Category[] = [
           "en": "a theory of market cycle analysis through wave patterns",
           "ru": "a theory of market cycle analysis through wave patterns",
           "zh": "通过波浪模式进行市场周期分析的理论"
-        }
+        },
+        "image": "/images/trading_elliott_waves_crystal_peaks_v2_premium_1770927188740.png"
       },
       {
         "id": "harmonic-patterns",
@@ -1359,7 +1366,8 @@ export const categories: Category[] = [
           "en": "the assessment of the overall mood or attitude of market participants towards a specific asset or the market as a whole. Sources can include social media, news articles, forums, and surveys. Helps to understand if the market is \"bullish\" or \"bearish\" from a crowd psychology perspective.",
           "ru": "трейдер, который размещает лимитные ордера, тем самым добавляя ликвидность в ордербук. Обычно получает более низкие комиссии на биржах.",
           "zh": "评估市场参与者对特定资产或整个市场的总体情绪或态度。来源可能包括社交媒体、新闻文章、论坛和调查。有助于从群体心理学角度了解市场是\"看涨\"还是\"看跌\"。"
-        }
+        },
+        "image": "/images/trading_sentiment_analysis_brain_hologram_v3_premium_1770927487566.png"
       }
     ]
   },
@@ -2513,7 +2521,8 @@ export const categories: Category[] = [
           "en": "analysis of the sequence of orders entering the market",
           "ru": "использование разницы во времени получения рыночных данных",
           "zh": "进入市场的订单序列分析"
-        }
+        },
+        "image": "/images/trading_order_flow_energy_streams_v3_premium_1770927234302.png"
       },
       {
         "id": "orderbook-imbalance",
