@@ -137,7 +137,25 @@ image_map = {
     "deal-id": "/images/trading_deal_id_unique_hologram_premium_1770931249006.png",
     "status": "/images/trading_status_indicator_glow_states_premium_1770931267717.png",
     "user": "/images/trading_user_profile_avatar_premium_v3_retry_1770931310140.png",
-    "asset-s-": "/images/trading_assets_crypto_collection_premium_v2_retry_1770931328682.png"
+    "asset-s-": "/images/trading_assets_crypto_collection_premium_v2_retry_1770931328682.png",
+    "o--open-": "/images/trading_ohlc_components_data_points_premium_1770931581131.png",
+    "h--high-": "/images/trading_ohlc_components_data_points_premium_1770931581131.png",
+    "l--low-": "/images/trading_ohlc_components_data_points_premium_1770931581131.png",
+    "c--close-": "/images/trading_ohlc_components_data_points_premium_1770931581131.png",
+    "v--volume-": "/images/trading_volume_indicators_energy_skyscrapers_premium_1770930661867.png",
+    "m1--m5--m15--m30": "/images/trading_timeframes_m1_m30_clock_premium_v2_1770931636706.png",
+    "m1": "/images/trading_timeframes_m1_m30_clock_premium_v2_1770931636706.png",
+    "d1": "/images/trading_daily_timeframe_d1_sun_v3_premium_1770931683387.png",
+    "hidden-orders": "/images/trading_hidden_order_stealth_v4_premium_1770931703835.png",
+    "pegged-orders": "/images/trading_pegged_order_anchor_premium_v2_1770931601948.png",
+    "mcclellan-oscillator": "/images/trading_mcclellan_oscillator_graph_v5_premium_1770931799436.png",
+    "h1--h4": "/images/trading_hourly_timeframe_h1_h4_v2_premium_1770931817649.png",
+    "w1": "/images/trading_weekly_timeframe_w1_v2_premium_1770931836962.png",
+    "holding-period": "/images/trading_holding_period_hourglass_v2_premium_1770931856908.png",
+    "color": "/images/trading_candle_color_meaning_premium_1770931874544.png",
+    "deal-type": "/images/trading_deal_type_classification_premium_1770931895695.png",
+    "upper-shadow": "/images/trading_shadows_wicks_laser_extreme_premium_1770931206215.png",
+    "lower-shadow": "/images/trading_shadows_wicks_laser_extreme_premium_1770931206215.png"
 }
 
 output = """export interface Term {

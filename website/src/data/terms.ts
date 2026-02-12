@@ -470,7 +470,8 @@ export const categories: Category[] = [
           "en": "opening price of the period",
           "ru": "ордер на покупку или продажу актива по текущей рыночной цене, исполняется немедленно",
           "zh": "时期开盘价"
-        }
+        },
+        "image": "/images/trading_ohlc_components_data_points_premium_1770931581131.png"
       },
       {
         "id": "h--high-",
@@ -483,7 +484,8 @@ export const categories: Category[] = [
           "en": "maximum price reached during the period",
           "ru": "ордер на покупку или продажу актива по указанной цене или лучше",
           "zh": "时期内达到的最高价"
-        }
+        },
+        "image": "/images/trading_ohlc_components_data_points_premium_1770931581131.png"
       },
       {
         "id": "l--low-",
@@ -496,7 +498,8 @@ export const categories: Category[] = [
           "en": "minimum price reached during the period",
           "ru": "ордер, который активируется при достижении определенной цены",
           "zh": "时期内达到的最低价"
-        }
+        },
+        "image": "/images/trading_ohlc_components_data_points_premium_1770931581131.png"
       },
       {
         "id": "c--close-",
@@ -509,7 +512,8 @@ export const categories: Category[] = [
           "en": "closing price of the period",
           "ru": "комбинация стоп и лимитного ордеров",
           "zh": "时期收盘价"
-        }
+        },
+        "image": "/images/trading_ohlc_components_data_points_premium_1770931581131.png"
       },
       {
         "id": "v--volume-",
@@ -522,7 +526,8 @@ export const categories: Category[] = [
           "en": "total trading volume during the period",
           "ru": "ордер на закрытие позиции с прибылью при достижении определенной цены",
           "zh": "时期内总交易量"
-        }
+        },
+        "image": "/images/trading_volume_indicators_energy_skyscrapers_premium_1770930661867.png"
       },
       {
         "id": "candle-body",
@@ -602,7 +607,8 @@ export const categories: Category[] = [
           "en": "1, 5, 15, 30 minutes",
           "ru": "ордера, которые не отображаются в публичном стакане до момента исполнения или частичного исполнения. Используются для сокрытия крупных торговых намерений.",
           "zh": "1、5、15、30分钟"
-        }
+        },
+        "image": "/images/trading_timeframes_m1_m30_clock_premium_v2_1770931636706.png"
       },
       {
         "id": "h1--h4",
@@ -628,7 +634,8 @@ export const categories: Category[] = [
           "en": "1 day",
           "ru": "ордера, позволяющие брокеру или торговой системе исполнять их по цене в заданном диапазоне или при определённых условиях, что даёт гибкость для достижения лучшей цены или времени исполнения.",
           "zh": "1天"
-        }
+        },
+        "image": "/images/trading_daily_timeframe_d1_sun_v3_premium_1770931683387.png"
       },
       {
         "id": "w1",
@@ -654,7 +661,8 @@ export const categories: Category[] = [
           "en": "1 month",
           "ru": "покупка актива с ожиданием роста его цены",
           "zh": "1个月"
-        }
+        },
+        "image": "/images/trading_timeframes_m1_m30_clock_premium_v2_1770931636706.png"
       },
       {
         "id": "bullish-engulfing",
@@ -859,7 +867,8 @@ export const categories: Category[] = [
           "en": "orders that are not displayed in the public order book until they are executed or partially executed. Used to conceal large trading intentions.",
           "ru": "orders that are not displayed in the public order book until they are executed or partially executed. Used to conceal large trading intentions.",
           "zh": "在执行或部分执行之前不在公共订单簿中显示的订单。用于隐藏大型交易意图。"
-        }
+        },
+        "image": "/images/trading_hidden_order_stealth_v4_premium_1770931703835.png"
       },
       {
         "id": "pegged-orders",
@@ -872,7 +881,8 @@ export const categories: Category[] = [
           "en": "orders whose price is tied to a specific market benchmark (e.g., best bid/offer or mid-price) and automatically adjusts as that benchmark changes.",
           "ru": "orders whose price is tied to a specific market benchmark (e.g., best bid/offer or mid-price) and automatically adjusts as that benchmark changes.",
           "zh": "价格绑定到特定市场基准（例如最佳买价/卖价或中间价）并随该基准变化自动调整的订单。"
-        }
+        },
+        "image": "/images/trading_pegged_order_anchor_premium_v2_1770931601948.png"
       },
       {
         "id": "discretionary-orders",
