@@ -1439,7 +1439,8 @@ export const categories: Category[] = [
           "en": "an individual or institution that supplies buy and sell orders to the market, enhancing liquidity and facilitating smoother trading; can include market makers, banks, or specialized firms.",
           "ru": "снижение стоимости портфеля от пикового значения до минимума перед новым пиком",
           "zh": "向市场提供买卖订单、增强流动性并促进更顺畅交易的个人或机构；可以包括做市商、银行或专业公司。"
-        }
+        },
+        "image": "/images/trading_liquidity_provider_v3_premium_1770932798396.png"
       },
       {
         "id": "market-manipulator",
@@ -1743,7 +1744,8 @@ export const categories: Category[] = [
           "en": "the average value between bid and ask prices",
           "ru": "the average value between bid and ask prices",
           "zh": "买价和卖价之间的平均值"
-        }
+        },
+        "image": "/images/trading_mid_price_equilibrium_v2_premium_1770932871512.png"
       },
       {
         "id": "tick-size",
@@ -1863,7 +1865,8 @@ export const categories: Category[] = [
           "en": "an analysis method where a portfolio or strategy is evaluated under hypothetical extreme but plausible market scenarios (e.g., a sharp market crash, liquidity crisis) to understand potential losses and resilience.",
           "ru": "использование компьютерных алгоритмов для автоматического выполнения торговых операций",
           "zh": "在假设极端但合理的市场情景（例如急剧市场崩盘、流动性危机）下评估投资组合或策略以了解潜在损失和韧性的分析方法。"
-        }
+        },
+        "image": "/images/trading_stress_testing_anvil_v3_premium_1770932818079.png"
       },
       {
         "id": "algorithmic-risk-controls",
@@ -1930,7 +1933,8 @@ export const categories: Category[] = [
           "en": "an emergency mechanism that allows for the immediate shutdown of trading systems or the cancellation of all open orders to prevent further losses or mitigate systemic risk during extreme market events or technical failures.",
           "ru": "среднесрочная стратегия, при которой позиции удерживаются от нескольких дней до нескольких недель",
           "zh": "允许立即关闭交易系统或取消所有开放订单的紧急机制，在极端市场事件或技术故障期间防止进一步损失或减轻系统性风险。"
-        }
+        },
+        "image": "/images/trading_kill_switch_emergency_button_premium_1770932701695.png"
       },
       {
         "id": "fat-finger-error-prevention",
@@ -1943,7 +1947,8 @@ export const categories: Category[] = [
           "en": "safeguards and system checks designed to prevent accidental entry of orders with incorrect prices, sizes, or other parameters, such as confirmation prompts, maximum order size limits, and price deviation warnings.",
           "ru": "долгосрочная стратегия, при которой позиции удерживаются от нескольких недель до нескольких месяцев или даже лет",
           "zh": "旨在防止意外输入错误价格、大小或其他参数订单的保护措施和系统检查，如确认提示、最大订单大小限制和价格偏差警告。"
-        }
+        },
+        "image": "/images/trading_fat_finger_prevention_alert_premium_1770932721664.png"
       },
       {
         "id": "credit-risk-checks",
@@ -1969,7 +1974,8 @@ export const categories: Category[] = [
           "en": "a maximum allowable size of a position in a particular asset or market, set by exchanges, regulators, or risk managers to prevent excessive risk exposure and maintain market stability.",
           "ru": "покупка и продажа активов в течение одного торгового дня, позиции не переносятся на следующий день",
           "zh": "特定资产或市场中可允许的最大仓位大小，由交易所、监管机构或风险管理者设定，以防止过度风险暴露并维持市场稳定。"
-        }
+        },
+        "image": "/images/trading_position_limit_barrier_v2_premium_1770932890365.png"
       },
       {
         "id": "order-frequency-limit",
@@ -2034,7 +2040,8 @@ export const categories: Category[] = [
           "en": "the overall soundness, fairness, and transparency of a financial market, maintained through regulations, surveillance, and enforcement to ensure that all participants operate on a level playing field and that prices reflect true supply and demand.",
           "ru": "the overall soundness, fairness, and transparency of a financial market, maintained through regulations, surveillance, and enforcement to ensure that all participants operate on a level playing field and that prices reflect true supply and demand.",
           "zh": "金融市场的整体健全性、公平性和透明度，通过法规、监督和执法维持，确保所有参与者在公平竞争环境中操作，价格反映真实供需。"
-        }
+        },
+        "image": "/images/trading_market_integrity_scales_v3_premium_1770932853753.png"
       },
       {
         "id": "insider-trading",
@@ -2047,7 +2054,8 @@ export const categories: Category[] = [
           "en": "the illegal practice of trading financial instruments based on material, non-public information, giving an unfair advantage and undermining market integrity.",
           "ru": "the illegal practice of trading financial instruments based on material, non-public information, giving an unfair advantage and undermining market integrity.",
           "zh": "基于重要非公开信息进行金融工具交易的非法行为，给予不公平优势并破坏市场诚信。"
-        }
+        },
+        "image": "/images/trading_insider_trading_v3_premium_shadows_1770932834971.png"
       },
       {
         "id": "front-running",

@@ -165,7 +165,15 @@ image_map = {
     "diversification": "/images/trading_diversification_v2_premium_1770932274153.png",
     "market-manipulator": "/images/trading_market_manipulator_v2_premium_1770932297387.png",
     "retail-trader": "/images/trading_retail_trader_home_nexus_premium_1770932317964.png",
-    "algorithmic-risk-controls": "/images/trading_algorithmic_risk_controls_firewall_premium_1770932339961.png"
+    "algorithmic-risk-controls": "/images/trading_algorithmic_risk_controls_firewall_premium_1770932339961.png",
+    "kill-switch": "/images/trading_kill_switch_emergency_button_premium_1770932701695.png",
+    "fat-finger-error-prevention": "/images/trading_fat_finger_prevention_alert_premium_1770932721664.png",
+    "liquidity-provider": "/images/trading_liquidity_provider_v3_premium_1770932798396.png",
+    "stress-testing": "/images/trading_stress_testing_anvil_v3_premium_1770932818079.png",
+    "insider-trading": "/images/trading_insider_trading_v3_premium_shadows_1770932834971.png",
+    "market-integrity": "/images/trading_market_integrity_scales_v3_premium_1770932853753.png",
+    "mid-price": "/images/trading_mid_price_equilibrium_v2_premium_1770932871512.png",
+    "position-limit": "/images/trading_position_limit_barrier_v2_premium_1770932890365.png"
 }
 
 output = """export interface Term {
