@@ -114,7 +114,14 @@ image_map = {
     "stop-limit-order": "/images/trading_stop_limit_order_gate_premium_1770927352685.png",
     "oco--one-cancels-other-": "/images/trading_oco_order_linked_nexus_premium_1770927392079.png",
     "block-order-execution": "/images/trading_block_order_solid_execution_premium_1770927439138.png",
-    "sentimental-analysis": "/images/trading_sentiment_analysis_brain_hologram_v3_premium_1770927487566.png"
+    "sentimental-analysis": "/images/trading_sentiment_analysis_brain_hologram_v3_premium_1770927487566.png",
+    "macd--moving-average-convergence-divergence-": "/images/trading_macd_indicator_cross_premium_1770929667565.png",
+    "websocket": "/images/trading_websocket_realtime_pulse_v2_premium_1770929746129.png",
+    "grpc": "/images/trading_grpc_efficient_nexus_premium_1770929688332.png",
+    "harmonic-patterns": "/images/trading_harmonic_patterns_geometry_premium_1770929710390.png",
+    "tick-size": "/images/trading_tick_size_granularity_premium_1770929764494.png",
+    "price-gap": "/images/trading_price_gap_shattered_flow_premium_1770929785192.png",
+    "market-impact": "/images/trading_market_impact_ripple_premium_1770929813167.png"
 }
 
 output = """export interface Term {

@@ -1222,7 +1222,8 @@ export const categories: Category[] = [
           "en": "an indicator showing the relationship between two moving averages",
           "ru": "оценка общего настроения или отношения участников рынка к определенному активу или рынку в целом. Источниками могут служить социальные сети, новостные статьи, форумы, опросы. Помогает понять, является ли рынок \"бычьим\" или \"медвежьим\" с точки зрения психологии толпы.",
           "zh": "显示两个移动平均线关系的指标"
-        }
+        },
+        "image": "/images/trading_macd_indicator_cross_premium_1770929667565.png"
       },
       {
         "id": "bollinger-bands",
@@ -1316,7 +1317,8 @@ export const categories: Category[] = [
           "en": "geometric price patterns based on Fibonacci numbers",
           "ru": "geometric price patterns based on Fibonacci numbers",
           "zh": "基于斐波那契数列的几何价格形态"
-        }
+        },
+        "image": "/images/trading_harmonic_patterns_geometry_premium_1770929710390.png"
       }
     ]
   },
@@ -1606,7 +1608,8 @@ export const categories: Category[] = [
           "en": "a sharp price change between two consecutive periods when there is no trading between them",
           "ru": "максимальная допустимая стоимость одного ордера или группы ордеров",
           "zh": "两个连续时期之间没有交易时的急剧价格变化"
-        }
+        },
+        "image": "/images/trading_price_gap_shattered_flow_premium_1770929785192.png"
       },
       {
         "id": "volatility",
@@ -1713,7 +1716,8 @@ export const categories: Category[] = [
           "en": "the minimum price increment by which the price of a financial instrument can change on a trading venue, affecting bid-ask spreads and market liquidity.",
           "ru": "the minimum price increment by which the price of a financial instrument can change on a trading venue, affecting bid-ask spreads and market liquidity.",
           "zh": "金融工具价格在交易场所可以变化的最小价格增量，影响买卖价差和市场流动性。"
-        }
+        },
+        "image": "/images/trading_tick_size_granularity_premium_1770929764494.png"
       }
     ]
   },
@@ -2061,7 +2065,8 @@ export const categories: Category[] = [
           "en": "a protocol for receiving real-time data from an exchange",
           "ru": "соотношение объемов на стороне покупки и продажи",
           "zh": "从交易所接收实时数据的协议"
-        }
+        },
+        "image": "/images/trading_websocket_realtime_pulse_v2_premium_1770929746129.png"
       },
       {
         "id": "rate-limit",
@@ -2548,7 +2553,8 @@ export const categories: Category[] = [
           "en": "price change resulting from the execution of a large order",
           "ru": "инструменты для отслеживания работы торговых алгоритмов в реальном времени",
           "zh": "执行大额订单导致的价格变化"
-        }
+        },
+        "image": "/images/trading_market_impact_ripple_premium_1770929813167.png"
       },
       {
         "id": "dark-pools",
@@ -3080,7 +3086,8 @@ export const categories: Category[] = [
           "en": "a protocol providing full-duplex communication channels over a single TCP connection, widely used for real-time data streaming in trading platforms and exchanges.",
           "ru": "a protocol providing full-duplex communication channels over a single TCP connection, widely used for real-time data streaming in trading platforms and exchanges.",
           "zh": "在单个TCP连接上提供全双工通信渠道的协议，广泛用于交易平台和交易所的实时数据流。"
-        }
+        },
+        "image": "/images/trading_websocket_realtime_pulse_v2_premium_1770929746129.png"
       },
       {
         "id": "rest-api",
@@ -3107,7 +3114,8 @@ export const categories: Category[] = [
           "en": "a high-performance, open-source remote procedure call (RPC) framework that uses HTTP/2 for transport and Protocol Buffers for efficient serialization, suitable for low-latency trading system integration.",
           "ru": "a high-performance, open-source remote procedure call (RPC) framework that uses HTTP/2 for transport and Protocol Buffers for efficient serialization, suitable for low-latency trading system integration.",
           "zh": "使用HTTP/2进行传输和Protocol Buffers进行高效序列化的高性能开源远程过程调用（RPC）框架，适用于低延迟交易系统集成。"
-        }
+        },
+        "image": "/images/trading_grpc_efficient_nexus_premium_1770929688332.png"
       },
       {
         "id": "dma--direct-market-access-",
