@@ -2267,7 +2267,8 @@ export const categories: Category[] = [
           "en": "a high-frequency trading strategy that involves initiating a series of trades to trigger price movements in a specific direction, often to profit from the resulting momentum or to induce other traders to follow.",
           "ru": "a high-frequency trading strategy that involves initiating a series of trades to trigger price movements in a specific direction, often to profit from the resulting momentum or to induce other traders to follow.",
           "zh": "涉及发起一系列交易以触发特定方向价格变动的高频交易策略，通常为了从由此产生的动量中获利或诱导其他交易者跟随。"
-        }
+        },
+        "image": "/images/trading_momentum_ignition_rocket_p4_premium_1770933840678.png"
       },
       {
         "id": "hft-spoofing-and-layering",
@@ -2280,7 +2281,8 @@ export const categories: Category[] = [
           "en": "high-frequency trading tactics where traders place and quickly cancel large orders (spoofing) or place multiple orders at different price levels (layering) to mislead other market participants about supply and demand, often to manipulate prices.",
           "ru": "high-frequency trading tactics where traders place and quickly cancel large orders (spoofing) or place multiple orders at different price levels (layering) to mislead other market participants about supply and demand, often to manipulate prices.",
           "zh": "高频交易策略，交易者下达并快速取消大额订单（欺骗）或在不同价格水平下达多个订单（分层）以误导其他市场参与者对供需的判断，通常为了操纵价格。"
-        }
+        },
+        "image": "/images/trading_spoofing_ghosts_p4_premium_1770933825284.png"
       },
       {
         "id": "adaptive-trading-algorithms",
@@ -2403,7 +2405,8 @@ export const categories: Category[] = [
           "en": "special algorithms for optimal execution of large orders (TWAP, VWAP, Iceberg)",
           "ru": "special algorithms for optimal execution of large orders (TWAP, VWAP, Iceberg)",
           "zh": "用于最优执行大型订单的特殊算法（TWAP、VWAP、冰山）"
-        }
+        },
+        "image": "/images/trading_execution_algo_precison_p4_premium_1770933861237.png"
       }
     ]
   },
@@ -2538,7 +2541,8 @@ export const categories: Category[] = [
           "en": "the price at which the option holder can buy (for a call option) or sell (for a put option) the underlying asset.",
           "ru": "психологические предубеждения, влияющие на принятие торговых решений. Примеры:",
           "zh": "期权持有者可以买入（看涨期权）或卖出（看跌期权）标的资产的价格。"
-        }
+        },
+        "image": "/images/trading_strike_price_target_p4_premium_1770933788980.png"
       },
       {
         "id": "expiration-date",
@@ -2564,7 +2568,8 @@ export const categories: Category[] = [
           "en": "a set of metrics used to measure various aspects of an option position's risk:",
           "ru": "a set of metrics used to measure various aspects of an option position's risk:",
           "zh": "用于测量期权仓位风险各个方面的一套指标："
-        }
+        },
+        "image": "/images/trading_greeks_math_p4_premium_1770933807560.png"
       }
     ]
   },

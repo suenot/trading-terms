@@ -196,7 +196,12 @@ image_map = {
     "call-option": "/images/trading_call_option_contract_up_premium_v2_1770933557427.png",
     "put-option": "/images/trading_put_option_contract_v3_premium_1770933623404.png",
     "trend-trading": "/images/trading_trend_trading_surfer_premium_v2_1770933644854.png",
-    "volume": "/images/trading_volume_indicators_energy_skyscrapers_premium_1770930661867.png"
+    "volume": "/images/trading_volume_indicators_energy_skyscrapers_premium_1770930661867.png",
+    "strike-price": "/images/trading_strike_price_target_p4_premium_1770933788980.png",
+    "greeks": "/images/trading_greeks_math_p4_premium_1770933807560.png",
+    "hft-spoofing-and-layering": "/images/trading_spoofing_ghosts_p4_premium_1770933825284.png",
+    "hft-momentum-ignition": "/images/trading_momentum_ignition_rocket_p4_premium_1770933840678.png",
+    "execution-algorithms": "/images/trading_execution_algo_precison_p4_premium_1770933861237.png"
 }
 
 output = """export interface Term {
