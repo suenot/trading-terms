@@ -2976,7 +2976,8 @@ export const categories: Category[] = [
           "en": "a system that automatically routes orders to various trading venues (exchanges, dark pools, etc.) to achieve the best execution based on price, speed, or other criteria. Also known as Smart Order Routing.",
           "ru": "процесс удержания криптовалюты в кошельке или на специальной платформе для поддержки операций блокчейна и получения вознаграждения",
           "zh": "自动将订单路由到各种交易场所（交易所、暗池等）的系统，基于价格、速度或其他标准实现最佳执行。也称为智能订单路由。"
-        }
+        },
+        "image": "/images/trading_sor_router_premium_v2_1770934827315.png"
       },
       {
         "id": "order-routing",
@@ -2989,7 +2990,8 @@ export const categories: Category[] = [
           "en": "the process of directing orders to different trading venues, exchanges, or liquidity providers to achieve optimal execution based on factors such as price, speed, and available liquidity.",
           "ru": "разновидность фарминга доходности, где пользователи получают токены управления протокола в обмен на предоставление ликвидности",
           "zh": "将订单定向到不同交易场所、交易所或流动性提供者的过程，基于价格、速度和可用流动性等因素实现最优执行。"
-        }
+        },
+        "image": "/images/trading_order_routing_blueprint_premium_v2_1770934920838.png"
       },
       {
         "id": "order-protection-rule",
@@ -3015,7 +3017,8 @@ export const categories: Category[] = [
           "en": "the obligation of brokers and trading systems to execute client orders on the most favorable terms available, considering factors such as price, speed, likelihood of execution, and overall cost.",
           "ru": "сервисы, которые поставляют смарт-контрактам данные из реального мира",
           "zh": "经纪商和交易系统在可用的最有利条件下执行客户订单的义务，考虑价格、速度、执行可能性和总成本等因素。"
-        }
+        },
+        "image": "/images/trading_best_execution_seal_premium_v2_1770934865675.png"
       },
       {
         "id": "transaction-cost-analysis--tca-",
@@ -3028,7 +3031,8 @@ export const categories: Category[] = [
           "en": "a process of evaluating and measuring the costs associated with trading activities, including explicit costs (commissions, fees) and implicit costs (slippage, market impact), to assess execution quality and optimize trading strategies.",
           "ru": "особый тип незалоговых займов в DeFi, которые должны быть взяты и погашены в рамках одной блокчейн-транзакции",
           "zh": "评估和测量与交易活动相关成本的过程，包括显性成本（佣金、费用）和隐性成本（滑点、市场影响），以评估执行质量并优化交易策略。"
-        }
+        },
+        "image": "/images/trading_tca_analysis_microscope_premium_v2_1770934846800.png"
       },
       {
         "id": "slippage-control",
@@ -3068,7 +3072,8 @@ export const categories: Category[] = [
           "en": "the practice of limiting the rate at which orders can be submitted to a trading system or exchange, typically to prevent system overload, reduce risk, and ensure fair access for all participants.",
           "ru": "процесс постепенной разблокировки токенов, распределённых среди команды проекта, советников или ранних инвесторов",
           "zh": "限制可向交易系统或交易所提交订单速率的做法，通常用于防止系统过载、降低风险并确保所有参与者的公平访问。"
-        }
+        },
+        "image": "/images/trading_throttling_valve_premium_v2_1770934885316.png"
       },
       {
         "id": "order-acknowledgement",
@@ -3133,7 +3138,8 @@ export const categories: Category[] = [
           "en": "the processes and controls used to establish, maintain, and terminate communication sessions between trading systems, including authentication, authorization, and recovery from interruptions.",
           "ru": "the processes and controls used to establish, maintain, and terminate communication sessions between trading systems, including authentication, authorization, and recovery from interruptions.",
           "zh": "用于建立、维持和终止交易系统间通信会话的流程和控制，包括认证、授权和从中断中恢复。"
-        }
+        },
+        "image": "/images/trading_session_mgmt_keys_premium_v2_1770934902768.png"
       },
       {
         "id": "disaster-recovery",

@@ -220,7 +220,13 @@ image_map = {
     "cognitive-biases": "/images/trading_biases_p5_premium_1770934584665.png",
     "tags": "/images/trading_tags_p5_premium_1770934605004.png",
     "expiration-date": "/images/trading_expiry_p5_premium_1770934622188.png",
-    "discretionary-orders": "/images/trading_discretionary_p5_premium_v2_1770934640695.png"
+    "discretionary-orders": "/images/trading_discretionary_p5_premium_v2_1770934640695.png",
+    "smart-order-router--sor-": "/images/trading_sor_router_premium_v2_1770934827315.png",
+    "transaction-cost-analysis--tca-": "/images/trading_tca_analysis_microscope_premium_v2_1770934846800.png",
+    "best-execution": "/images/trading_best_execution_seal_premium_v2_1770934865675.png",
+    "order-throttling": "/images/trading_throttling_valve_premium_v2_1770934885316.png",
+    "session-management": "/images/trading_session_mgmt_keys_premium_v2_1770934902768.png",
+    "order-routing": "/images/trading_order_routing_blueprint_premium_v2_1770934920838.png"
 }
 
 output = """export interface Term {
