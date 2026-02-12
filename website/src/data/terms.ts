@@ -260,7 +260,8 @@ export const categories: Category[] = [
           "en": "index reflecting the state of the US industrial sector.",
           "ru": "index reflecting the state of the US industrial sector.",
           "zh": "反映美国工业板块状态的指数。"
-        }
+        },
+        "image": "/images/trading_dow_jones_industrial_premium_1770921637780.png"
       },
       {
         "id": "russell-2000---iwm---rut-",
@@ -273,7 +274,8 @@ export const categories: Category[] = [
           "en": "small-cap index, often used to analyze \"second-tier\" trends and economic rotation.",
           "ru": "small-cap index, often used to analyze \"second-tier\" trends and economic rotation.",
           "zh": "小盘股指数，通常用于分析\"二线\"趋势和经济轮动。"
-        }
+        },
+        "image": "/images/trading_russell_2000_small_cap_premium_1770921663463.png"
       },
       {
         "id": "semiconductor-etf---smh---soxx-",
@@ -299,7 +301,8 @@ export const categories: Category[] = [
           "en": "volatility of VIX volatility.",
           "ru": "volatility of VIX volatility.",
           "zh": "VIX波动率的波动率。"
-        }
+        },
+        "image": "/images/trading_vvix_volatility_of_volatility_1770921684375.png"
       },
       {
         "id": "s5fi",
@@ -3143,7 +3146,8 @@ export const categories: Category[] = [
           "en": "a decentralized exchange operating without a central intermediary",
           "ru": "основной индекс фондового рынка США, отражающий динамику 500 крупнейших компаний. Часто используется как базовый ориентир для анализа общего направления рынка.",
           "zh": "在没有中央中介的情况下运营的去中心化交易所"
-        }
+        },
+        "image": "/images/trading_dex_premium_v2_1770921976391.png"
       },
       {
         "id": "amm--automated-market-maker-",
@@ -3208,7 +3212,8 @@ export const categories: Category[] = [
           "en": "the process of holding cryptocurrency in a wallet or on a special platform to support blockchain operations (e.g., validating transactions in Proof-of-Stake networks) and earn rewards.",
           "ru": "сектор ETF для полупроводников, индикатор настроений в технологической индустрии.",
           "zh": "在钱包或特殊平台上持有加密货币以支持区块链操作（例如在权益证明网络中验证交易）并赚取奖励的过程。"
-        }
+        },
+        "image": "/images/trading_staking_premium_v3_1770921900701.png"
       },
       {
         "id": "liquidity-mining",
@@ -3312,7 +3317,8 @@ export const categories: Category[] = [
           "en": "the process of permanently removing a certain number of tokens from circulation. Used to reduce the total supply of tokens, which can potentially increase their value.",
           "ru": "ширина рынка и короткосрочная перекупленность.",
           "zh": "永久从流通中移除一定数量代币的过程。用于减少代币总供应量，可能增加其价值。"
-        }
+        },
+        "image": "/images/trading_token_burn_incinerator_premium_1770921848644.png"
       }
     ]
   }

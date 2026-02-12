@@ -46,7 +46,13 @@ image_map = {
     "order": "/images/trading_order_digital_contract_1770921360053.png",
     "asset": "/images/trading_asset_digital_gold_coin_1770921382542.png",
     "limit-order": "/images/trading_limit_order_target_v2_premium_1770921447011.png",
-    "market-order": "/images/trading_market_order_lightning_v2_premium_1770921479686.png"
+    "market-order": "/images/trading_market_order_lightning_v2_premium_1770921479686.png",
+    "dow-jones-industrial-average---dia---dji-": "/images/trading_dow_jones_industrial_premium_1770921637780.png",
+    "russell-2000---iwm---rut-": "/images/trading_russell_2000_small_cap_premium_1770921663463.png",
+    "vvix": "/images/trading_vvix_volatility_of_volatility_1770921684375.png",
+    "staking": "/images/trading_staking_premium_v3_1770921900701.png",
+    "token-burn": "/images/trading_token_burn_incinerator_premium_1770921848644.png",
+    "dex--decentralized-exchange-": "/images/trading_dex_premium_v2_1770921976391.png"
 }
 
 output = """export interface Term {
