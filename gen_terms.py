@@ -173,7 +173,15 @@ image_map = {
     "insider-trading": "/images/trading_insider_trading_v3_premium_shadows_1770932834971.png",
     "market-integrity": "/images/trading_market_integrity_scales_v3_premium_1770932853753.png",
     "mid-price": "/images/trading_mid_price_equilibrium_v2_premium_1770932871512.png",
-    "position-limit": "/images/trading_position_limit_barrier_v2_premium_1770932890365.png"
+    "position-limit": "/images/trading_position_limit_barrier_v2_premium_1770932890365.png",
+    "liquidity-taker": "/images/trading_liquidity_taker_consumer_premium_1770933033659.png",
+    "quote": "/images/trading_quote_price_capsule_premium_1770933052275.png",
+    "pre-trade-risk-controls": "/images/trading_pre_trade_risk_checks_gate_premium_1770933072980.png",
+    "post-trade-risk-controls": "/images/trading_post_trade_risk_controls_verification_premium_1770933093511.png",
+    "market-access-controls": "/images/trading_market_access_controls_key_premium_1770933111261.png",
+    "self-match-prevention": "/images/trading_self_match_prevention_magnet_premium_1770933130631.png",
+    "order-frequency-limit": "/images/trading_order_frequency_limit_metronome_premium_1770933149460.png",
+    "order-value-limit": "/images/trading_order_value_limit_scale_premium_1770933168233.png"
 }
 
 output = """export interface Term {

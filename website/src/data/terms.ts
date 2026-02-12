@@ -1495,7 +1495,8 @@ export const categories: Category[] = [
           "en": "a market participant who removes liquidity from the market by executing against existing orders in the order book, typically through market orders or aggressive limit orders.",
           "ru": "использование финансовых инструментов или рыночных стратегий для снижения риска неблагоприятных ценовых движений актива",
           "zh": "通过对订单簿中现有订单执行（通常通过市价订单或激进限价订单）从市场中移除流动性的市场参与者。"
-        }
+        },
+        "image": "/images/trading_liquidity_taker_consumer_premium_1770933033659.png"
       },
       {
         "id": "institutional-trader",
@@ -1731,7 +1732,8 @@ export const categories: Category[] = [
           "en": "the current price of an asset on an exchange",
           "ru": "the current price of an asset on an exchange",
           "zh": "交易所上资产的当前价格"
-        }
+        },
+        "image": "/images/trading_quote_price_capsule_premium_1770933052275.png"
       },
       {
         "id": "mid-price",
@@ -1893,7 +1895,8 @@ export const categories: Category[] = [
           "en": "risk management measures applied before order submission to prevent erroneous or risky trades, such as maximum order size limits, price collars, fat-finger checks, and credit checks.",
           "ru": "время между отправкой ордера и его исполнением на бирже",
           "zh": "在订单提交前应用的风险管理措施，防止错误或风险交易，如最大订单大小限制、价格限制、胖手指检查和信用检查。"
-        }
+        },
+        "image": "/images/trading_pre_trade_risk_checks_gate_premium_1770933072980.png"
       },
       {
         "id": "post-trade-risk-controls",
@@ -1906,7 +1909,8 @@ export const categories: Category[] = [
           "en": "risk management processes and checks performed after trade execution to monitor compliance, detect errors, manage settlement risk, and ensure regulatory reporting.",
           "ru": "стратегия, использующая ценовые различия одного актива на разных биржах или рынках для получения безрисковой прибыли",
           "zh": "交易执行后执行的风险管理流程和检查，监控合规性、检测错误、管理结算风险并确保监管报告。"
-        }
+        },
+        "image": "/images/trading_post_trade_risk_controls_verification_premium_1770933093511.png"
       },
       {
         "id": "market-surveillance",
@@ -1988,7 +1992,8 @@ export const categories: Category[] = [
           "en": "a restriction on the number of orders that can be submitted within a specific time period, implemented to prevent excessive trading activity, reduce system load, and mitigate risks associated with high-frequency trading.",
           "ru": "специальные алгоритмы для оптимального исполнения крупных ордеров (TWAP, VWAP, Iceberg)",
           "zh": "对特定时间段内可提交订单数量的限制，实施以防止过度交易活动、减少系统负载并减轻与高频交易相关的风险。"
-        }
+        },
+        "image": "/images/trading_order_frequency_limit_metronome_premium_1770933149460.png"
       },
       {
         "id": "order-value-limit",
@@ -2001,7 +2006,8 @@ export const categories: Category[] = [
           "en": "a maximum allowable value for a single order or a group of orders, set to prevent excessive exposure or unintended large trades, often enforced by exchanges or risk management systems.",
           "ru": "a maximum allowable value for a single order or a group of orders, set to prevent excessive exposure or unintended large trades, often enforced by exchanges or risk management systems.",
           "zh": "单个订单或一组订单的最大允许价值，设定以防止过度暴露或意外大额交易，通常由交易所或风险管理系统执行。"
-        }
+        },
+        "image": "/images/trading_order_value_limit_scale_premium_1770933168233.png"
       },
       {
         "id": "market-access-controls",
@@ -2014,7 +2020,8 @@ export const categories: Category[] = [
           "en": "systems and procedures that regulate and monitor who can access trading venues, what types of orders can be submitted, and under what conditions, to prevent unauthorized or risky trading activity.",
           "ru": "systems and procedures that regulate and monitor who can access trading venues, what types of orders can be submitted, and under what conditions, to prevent unauthorized or risky trading activity.",
           "zh": "规范和监控谁可以访问交易场所、可以提交什么类型的订单以及在什么条件下的系统和程序，以防止未经授权或风险交易活动。"
-        }
+        },
+        "image": "/images/trading_market_access_controls_key_premium_1770933111261.png"
       },
       {
         "id": "self-match-prevention",
@@ -2027,7 +2034,8 @@ export const categories: Category[] = [
           "en": "mechanisms that prevent a trader's own buy and sell orders from matching with each other on an exchange, reducing the risk of wash trades and ensuring genuine market activity.",
           "ru": "mechanisms that prevent a trader's own buy and sell orders from matching with each other on an exchange, reducing the risk of wash trades and ensuring genuine market activity.",
           "zh": "防止交易者自己的买单和卖单在交易所相互匹配的机制，减少洗盘交易风险并确保真正的市场活动。"
-        }
+        },
+        "image": "/images/trading_self_match_prevention_magnet_premium_1770933130631.png"
       },
       {
         "id": "market-integrity",
