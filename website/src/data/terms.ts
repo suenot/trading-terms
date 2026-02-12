@@ -703,7 +703,8 @@ export const categories: Category[] = [
           "en": "an order to buy or sell an asset at the current market price, executed immediately",
           "ru": "индикатор, сглаживающий ценовые колебания для определения трендов",
           "zh": "以当前市价买入或卖出资产的订单，立即执行"
-        }
+        },
+        "image": "/images/trading_market_order_lightning_v2_premium_1770921479686.png"
       },
       {
         "id": "limit-order",
@@ -716,7 +717,8 @@ export const categories: Category[] = [
           "en": "an order to buy or sell an asset at a specified price or better",
           "ru": "осциллятор, измеряющий скорость и изменение ценовых движений",
           "zh": "以指定价格或更好价格买入或卖出资产的订单"
-        }
+        },
+        "image": "/images/trading_limit_order_target_v2_premium_1770921447011.png"
       },
       {
         "id": "stop-order",
@@ -1364,7 +1366,8 @@ export const categories: Category[] = [
           "en": "a market participant who provides liquidity by simultaneously placing buy and sell orders. Main functions:",
           "ru": "отношение потенциальной прибыли к потенциальному убытку в сделке",
           "zh": "通过同时下买单和卖单提供流动性的市场参与者。主要功能："
-        }
+        },
+        "image": "/images/trading_market_maker_v2_premium_1770921261543.png"
       },
       {
         "id": "liquidity-provider",
@@ -2207,7 +2210,8 @@ export const categories: Category[] = [
           "en": "a strategy using price differences of the same asset on different exchanges or markets to obtain risk-free profit",
           "ru": "a strategy using price differences of the same asset on different exchanges or markets to obtain risk-free profit",
           "zh": "利用同一资产在不同交易所或市场的价格差异获得无风险利润的策略"
-        }
+        },
+        "image": "/images/trading_arbitrage_v2_premium_1770921124011.png"
       },
       {
         "id": "scalping",

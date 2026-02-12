@@ -38,7 +38,15 @@ image_map = {
     "risk-management": "/images/trading_risk_management_shield_v2_1770920287567.png",
     "portfolio": "/images/trading_portfolio_balanced_spheres_1770920312669.png",
     "signal": "/images/trading_signal_holographic_pulse_1770920340872.png",
-    "exchange---trading-platform-": "/images/trading_exchange_global_hub_1770920364660.png"
+    "exchange---trading-platform-": "/images/trading_exchange_global_hub_1770920364660.png",
+    "arbitrage": "/images/trading_arbitrage_v2_premium_1770921124011.png",
+    "short-squeeze": "/images/trading_short_squeeze_v2_premium_1770921203601.png",
+    "market-maker": "/images/trading_market_maker_v2_premium_1770921261543.png",
+    "hedge": "/images/trading_hedge_v2_premium_1770921312903.png",
+    "order": "/images/trading_order_digital_contract_1770921360053.png",
+    "asset": "/images/trading_asset_digital_gold_coin_1770921382542.png",
+    "limit-order": "/images/trading_limit_order_target_v2_premium_1770921447011.png",
+    "market-order": "/images/trading_market_order_lightning_v2_premium_1770921479686.png"
 }
 
 output = """export interface Term {
