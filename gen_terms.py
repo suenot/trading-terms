@@ -237,7 +237,15 @@ image_map = {
     "output": "/images/trading_output_data_beam_premium_1770935931593.png",
     "comment": "/images/trading_comment_digital_note_premium_1770935946973.png",
     "related-deals": "/images/trading_related_deals_links_premium_1770935966215.png",
-    "platform-broker": "/images/trading_broker_platform_portal_premium_1770935980286.png"
+    "platform-broker": "/images/trading_broker_platform_portal_premium_1770935980286.png",
+    "position-sizing": "/images/trading_position_sizing_scale_premium_1770936060409.png",
+    "credit-risk-checks": "/images/trading_credit_risk_shield_premium_1770936077535.png",
+    "hft-order-anticipation-strategies": "/images/trading_hft_anticipation_vision_premium_1770936103793.png",
+    "adaptive-trading-algorithms": "/images/trading_adaptive_algo_transform_premium_1770936122069.png",
+    "position-trading": "/images/trading_position_trading_statue_premium_1770936140629.png",
+    "liquidity-fragmentation": "/images/trading_liquidity_fragmentation_puzzle_premium_1770936161454.png",
+    "sortino-ratio": "/images/trading_ratios_sortino_calmar_premium_1770936179987.png",
+    "calmar-ratio": "/images/trading_ratios_sortino_calmar_premium_1770936179987.png"
 }
 
 output = """export interface Term {

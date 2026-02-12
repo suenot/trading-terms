@@ -1824,7 +1824,8 @@ export const categories: Category[] = [
           "en": "determining the optimal number of asset units to trade considering risk",
           "ru": "максимальное количество запросов к API биржи за определенный период времени",
           "zh": "考虑风险确定交易的最佳资产单位数量"
-        }
+        },
+        "image": "/images/trading_position_sizing_scale_premium_1770936060409.png"
       },
       {
         "id": "diversification",
@@ -1977,7 +1978,8 @@ export const categories: Category[] = [
           "en": "procedures and automated controls to assess a trader's or firm's ability to meet financial obligations before allowing order submission or trade execution, helping to prevent defaults and limit counterparty risk.",
           "ru": "использование трендов и повторяющихся движений на ценовых графиках для анализа общего направления активов",
           "zh": "在允许订单提交或交易执行前评估交易者或公司履行财务义务能力的程序和自动控制，帮助防止违约和限制对手方风险。"
-        }
+        },
+        "image": "/images/trading_credit_risk_shield_premium_1770936077535.png"
       },
       {
         "id": "position-limit",
@@ -2251,7 +2253,8 @@ export const categories: Category[] = [
           "en": "high-frequency trading strategies that attempt to predict and react to the order flow of other market participants, often by analyzing patterns in order submissions and cancellations.",
           "ru": "high-frequency trading strategies that attempt to predict and react to the order flow of other market participants, often by analyzing patterns in order submissions and cancellations.",
           "zh": "试图预测和反应其他市场参与者订单流的高频交易策略，通常通过分析订单提交和取消模式。"
-        }
+        },
+        "image": "/images/trading_hft_anticipation_vision_premium_1770936103793.png"
       },
       {
         "id": "hft-quote-stuffing",
@@ -2306,7 +2309,8 @@ export const categories: Category[] = [
           "en": "trading algorithms capable of adjusting their parameters or logic in response to changing market conditions in real-time.",
           "ru": "trading algorithms capable of adjusting their parameters or logic in response to changing market conditions in real-time.",
           "zh": "能够实时调整其参数或逻辑以响应不断变化的市场条件的交易算法。"
-        }
+        },
+        "image": "/images/trading_adaptive_algo_transform_premium_1770936122069.png"
       },
       {
         "id": "latency",
@@ -2375,7 +2379,8 @@ export const categories: Category[] = [
           "en": "a long-term strategy where positions are held from several weeks to several months or even years",
           "ru": "a long-term strategy where positions are held from several weeks to several months or even years",
           "zh": "持仓几周到几个月甚至几年的长期策略"
-        }
+        },
+        "image": "/images/trading_position_trading_statue_premium_1770936140629.png"
       },
       {
         "id": "trend-trading",
@@ -2674,7 +2679,8 @@ export const categories: Category[] = [
           "en": "the dispersion of trading volume across multiple trading venues, exchanges, or platforms, which can result in reduced liquidity in any single venue and potentially wider spreads.",
           "ru": "the dispersion of trading volume across multiple trading venues, exchanges, or platforms, which can result in reduced liquidity in any single venue and potentially wider spreads.",
           "zh": "交易量在多个交易场所、交易所或平台上的分散，可能导致任何单一场所流动性减少并可能扩大价差。"
-        }
+        },
+        "image": "/images/trading_liquidity_fragmentation_puzzle_premium_1770936161454.png"
       },
       {
         "id": "market-making-strategies",
@@ -2809,7 +2815,8 @@ export const categories: Category[] = [
           "en": "a risk-adjusted return ratio that considers drawdowns",
           "ru": "a risk-adjusted return ratio that considers drawdowns",
           "zh": "考虑回撤的风险调整回报比率"
-        }
+        },
+        "image": "/images/trading_ratios_sortino_calmar_premium_1770936179987.png"
       },
       {
         "id": "alpha-indicator",
@@ -2850,7 +2857,8 @@ export const categories: Category[] = [
           "en": "the ratio of profit to maximum drawdown",
           "ru": "the ratio of profit to maximum drawdown",
           "zh": "利润与最大回撤的比率"
-        }
+        },
+        "image": "/images/trading_ratios_sortino_calmar_premium_1770936179987.png"
       },
       {
         "id": "kelly-criterion",
