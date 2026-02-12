@@ -95,7 +95,16 @@ image_map = {
     "funding-rate": "/images/trading_funding_rate_balance_exchange_premium_1770926281100.png",
     "latency": "/images/trading_latency_microsecond_trail_premium_1770926302797.png",
     "drawdown": "/images/trading_drawdown_cracked_glass_v2_premium_1770926342862.png",
-    "kelly-criterion": "/images/trading_kelly_criterion_optimal_bet_v2_premium_1770926368677.png"
+    "kelly-criterion": "/images/trading_kelly_criterion_optimal_bet_v2_premium_1770926368677.png",
+    "doji": "/images/trading_doji_star_indecision_premium_1770926693687.png",
+    "hammer": "/images/trading_hammer_pattern_reversal_premium_1770926717868.png",
+    "slippage-control": "/images/trading_slippage_control_shield_premium_1770926739600.png",
+    "backtesting": "/images/trading_backtesting_simulation_nexus_premium_1770926761561.png",
+    "maker": "/images/trading_maker_taker_liquidity_balance_premium_1770926815464.png",
+    "taker": "/images/trading_maker_taker_liquidity_balance_premium_1770926815464.png",
+    "day-trading": "/images/trading_day_trading_high_speed_clock_premium_1770926845012.png",
+    "position-size": "/images/trading_position_sizing_precise_allocation_premium_1770926872751.png",
+    "hedging": "/images/trading_hedging_offsetting_positions_v2_premium_1770926915964.png"
 }
 
 output = """export interface Term {

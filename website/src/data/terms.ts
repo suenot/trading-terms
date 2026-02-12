@@ -676,7 +676,8 @@ export const categories: Category[] = [
           "en": "a potential signal for a downtrend reversal, characterized by a small body and a long lower shadow",
           "ru": "количество единиц актива в позиции",
           "zh": "下降趋势反转的潜在信号，特征是小实体和长下影线"
-        }
+        },
+        "image": "/images/trading_hammer_pattern_reversal_premium_1770926717868.png"
       },
       {
         "id": "doji",
@@ -689,7 +690,8 @@ export const categories: Category[] = [
           "en": "a candle with a very small body, indicating market indecision",
           "ru": "залог, необходимый для открытия позиции с кредитным плечом",
           "zh": "实体极小的K线，表明市场犹豫不决"
-        }
+        },
+        "image": "/images/trading_doji_star_indecision_premium_1770926693687.png"
       }
     ]
   },
@@ -927,7 +929,8 @@ export const categories: Category[] = [
           "en": "the number of units of an asset in a position",
           "ru": "the number of units of an asset in a position",
           "zh": "仓位中资产的单位数量"
-        }
+        },
+        "image": "/images/trading_position_sizing_precise_allocation_premium_1770926872751.png"
       },
       {
         "id": "margin",
@@ -1419,7 +1422,8 @@ export const categories: Category[] = [
           "en": "a trader who places limit orders, thereby adding liquidity to the orderbook. Usually receives lower fees on exchanges.",
           "ru": "распределение капитала между различными активами для снижения риска",
           "zh": "下限价订单的交易者，从而向订单簿增加流动性。通常在交易所享受较低费用。"
-        }
+        },
+        "image": "/images/trading_maker_taker_liquidity_balance_premium_1770926815464.png"
       },
       {
         "id": "taker",
@@ -1432,7 +1436,8 @@ export const categories: Category[] = [
           "en": "a trader who executes existing orders in the book, thereby removing liquidity from the market. Usually pays higher fees.",
           "ru": "статистическая оценка максимальных потенциальных убытков портфеля в течение определенного периода времени с заданной доверительной вероятностью",
           "zh": "执行簿中现有订单的交易者，从而从市场中移除流动性。通常支付较高费用。"
-        }
+        },
+        "image": "/images/trading_maker_taker_liquidity_balance_premium_1770926815464.png"
       },
       {
         "id": "liquidity-taker",
@@ -1790,7 +1795,8 @@ export const categories: Category[] = [
           "en": "using financial instruments or market strategies to reduce the risk of adverse price movements in an asset. An example is opening a short futures position to hedge a long spot asset position.",
           "ru": "чрезмерная оптимизация стратегии под исторические данные, что может привести к плохим результатам на реальном рынке",
           "zh": "使用金融工具或市场策略降低资产不利价格变动风险。例子是开立空头期货仓位以对冲多头现货资产仓位。"
-        }
+        },
+        "image": "/images/trading_hedging_offsetting_positions_v2_premium_1770926915964.png"
       },
       {
         "id": "stress-testing",
@@ -2073,7 +2079,8 @@ export const categories: Category[] = [
           "en": "the process of testing a trading strategy on historical data",
           "ru": "изучение объемов торгов на разных ценовых уровнях",
           "zh": "在历史数据上测试交易策略的过程"
-        }
+        },
+        "image": "/images/trading_backtesting_simulation_nexus_premium_1770926761561.png"
       },
       {
         "id": "optimization",
@@ -2299,7 +2306,8 @@ export const categories: Category[] = [
           "en": "buying and selling assets within one trading day, positions are not carried over to the next day",
           "ru": "buying and selling assets within one trading day, positions are not carried over to the next day",
           "zh": "在一个交易日内买卖资产，仓位不过夜"
-        }
+        },
+        "image": "/images/trading_day_trading_high_speed_clock_premium_1770926845012.png"
       },
       {
         "id": "execution-algorithms",
@@ -2919,7 +2927,8 @@ export const categories: Category[] = [
           "en": "techniques and tools used to minimize the difference between the expected and actual execution price of a trade, such as setting slippage limits, using limit orders, or employing advanced execution algorithms.",
           "ru": "максимальная ценность, которую майнеры или валидаторы могут извлечь из производства блоков сверх стандартной награды за блок и комиссий за транзакции",
           "zh": "用于最小化交易预期和实际执行价格差异的技术和工具，如设置滑点限制、使用限价订单或采用高级执行算法。"
-        }
+        },
+        "image": "/images/trading_slippage_control_shield_premium_1770926739600.png"
       },
       {
         "id": "quote-matching",
