@@ -226,7 +226,9 @@ image_map = {
     "best-execution": "/images/trading_best_execution_seal_premium_v2_1770934865675.png",
     "order-throttling": "/images/trading_throttling_valve_premium_v2_1770934885316.png",
     "session-management": "/images/trading_session_mgmt_keys_premium_v2_1770934902768.png",
-    "order-routing": "/images/trading_order_routing_blueprint_premium_v2_1770934920838.png"
+    "order-routing": "/images/trading_order_routing_blueprint_premium_v2_1770934920838.png",
+    "disaster-recovery": "/images/trading_disaster_recovery_mirror_premium_v2_1770935040221.png",
+    "udp-multicast": "/images/trading_udp_multicast_pulse_premium_v2_1770935058441.png"
 }
 
 output = """export interface Term {

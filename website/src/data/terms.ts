@@ -3152,7 +3152,8 @@ export const categories: Category[] = [
           "en": "strategies and procedures for restoring trading operations and data after a major system failure, cyberattack, or other catastrophic event, ensuring business continuity and regulatory compliance.",
           "ru": "strategies and procedures for restoring trading operations and data after a major system failure, cyberattack, or other catastrophic event, ensuring business continuity and regulatory compliance.",
           "zh": "在重大系统故障、网络攻击或其他灾难性事件后恢复交易操作和数据的策略和程序，确保业务连续性和监管合规。"
-        }
+        },
+        "image": "/images/trading_disaster_recovery_mirror_premium_v2_1770935040221.png"
       },
       {
         "id": "udp-multicast",
@@ -3165,7 +3166,8 @@ export const categories: Category[] = [
           "en": "a network communication method that allows data to be sent from one source to multiple recipients simultaneously, commonly used for distributing market data feeds with low latency.",
           "ru": "a network communication method that allows data to be sent from one source to multiple recipients simultaneously, commonly used for distributing market data feeds with low latency.",
           "zh": "允许数据从一个源同时发送到多个接收者的网络通信方法，通常用于低延迟分发市场数据源。"
-        }
+        },
+        "image": "/images/trading_udp_multicast_pulse_premium_v2_1770935058441.png"
       },
       {
         "id": "tcp-ip",
