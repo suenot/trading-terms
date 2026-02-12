@@ -2620,7 +2620,8 @@ export const categories: Category[] = [
           "en": "the ratio of volumes on the buy and sell sides",
           "ru": "оптимизация сетевых соединений для минимизации задержек",
           "zh": "买卖双方成交量的比率"
-        }
+        },
+        "image": "/images/trading_orderbook_imbalance_scale_premium_1770934031344.png"
       },
       {
         "id": "market-impact",
@@ -2700,7 +2701,8 @@ export const categories: Category[] = [
           "en": "the process of combining liquidity from multiple sources, such as different exchanges or trading venues, to provide traders with better pricing, deeper order books, and improved execution quality.",
           "ru": "the process of combining liquidity from multiple sources, such as different exchanges or trading venues, to provide traders with better pricing, deeper order books, and improved execution quality.",
           "zh": "结合来自多个来源（如不同交易所或交易场所）的流动性的过程，为交易者提供更好的定价、更深的订单簿和改进的执行质量。"
-        }
+        },
+        "image": "/images/trading_liquidity_aggregation_river_premium_1770934016360.png"
       },
       {
         "id": "order-matching-engine",
@@ -2727,7 +2729,8 @@ export const categories: Category[] = [
           "en": "studying trading volumes at different price levels",
           "ru": "studying trading volumes at different price levels",
           "zh": "研究不同价格水平的交易量"
-        }
+        },
+        "image": "/images/trading_cluster_analysis_galaxy_premium_1770934048147.png"
       }
     ]
   },
@@ -2750,7 +2753,8 @@ export const categories: Category[] = [
           "en": "the mathematical expectation of a trading strategy's result",
           "ru": "широко используемый протокол электронного обмена сообщениями для передачи торговых поручений и рыночных данных между финансовыми организациями в реальном времени",
           "zh": "交易策略结果的数学期望"
-        }
+        },
+        "image": "/images/trading_expected_return_treasure_premium_1770934001190.png"
       },
       {
         "id": "maximum-drawdown",
@@ -2763,7 +2767,8 @@ export const categories: Category[] = [
           "en": "the largest percentage decrease in capital from peak to trough",
           "ru": "высокопроизводительный бинарный протокол, разработанный как расширение FIX для снижения задержек и экономии пропускной способности",
           "zh": "资本从峰值到谷底的最大百分比下降"
-        }
+        },
+        "image": "/images/trading_max_drawdown_canyon_premium_1770933967394.png"
       },
       {
         "id": "sharpe-ratio",
@@ -2803,7 +2808,8 @@ export const categories: Category[] = [
           "en": "a measure of trading strategy effectiveness",
           "ru": "a measure of trading strategy effectiveness",
           "zh": "交易策略有效性的度量"
-        }
+        },
+        "image": "/images/trading_alpha_beta_benchmark_premium_1770933985217.png"
       },
       {
         "id": "beta-indicator",
@@ -2816,7 +2822,8 @@ export const categories: Category[] = [
           "en": "a measure of trading strategy sensitivity to a market index",
           "ru": "a measure of trading strategy sensitivity to a market index",
           "zh": "交易策略对市场指数敏感性的度量"
-        }
+        },
+        "image": "/images/trading_alpha_beta_benchmark_premium_1770933985217.png"
       },
       {
         "id": "calmar-ratio",

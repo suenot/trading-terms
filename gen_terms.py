@@ -201,7 +201,14 @@ image_map = {
     "greeks": "/images/trading_greeks_math_p4_premium_1770933807560.png",
     "hft-spoofing-and-layering": "/images/trading_spoofing_ghosts_p4_premium_1770933825284.png",
     "hft-momentum-ignition": "/images/trading_momentum_ignition_rocket_p4_premium_1770933840678.png",
-    "execution-algorithms": "/images/trading_execution_algo_precison_p4_premium_1770933861237.png"
+    "execution-algorithms": "/images/trading_execution_algo_precison_p4_premium_1770933861237.png",
+    "maximum-drawdown": "/images/trading_max_drawdown_canyon_premium_1770933967394.png",
+    "alpha-indicator": "/images/trading_alpha_beta_benchmark_premium_1770933985217.png",
+    "beta-indicator": "/images/trading_alpha_beta_benchmark_premium_1770933985217.png",
+    "expected-return": "/images/trading_expected_return_treasure_premium_1770934001190.png",
+    "liquidity-aggregation": "/images/trading_liquidity_aggregation_river_premium_1770934016360.png",
+    "orderbook-imbalance": "/images/trading_orderbook_imbalance_scale_premium_1770934031344.png",
+    "cluster-analysis": "/images/trading_cluster_analysis_galaxy_premium_1770934048147.png"
 }
 
 output = """export interface Term {
