@@ -54,20 +54,28 @@ export default function Home({ params }: { params: Promise<{ lang: Language }> }
               <path d="M50 350 L50 50" stroke="rgba(255,255,255,0.1)" strokeWidth="1" />
 
               {/* Animated Bars */}
-              {[...Array(12)].map((_, i) => (
-                <rect
-                  key={i}
-                  x={80 + i * 22}
-                  y={200}
-                  width="10"
-                  height="100"
-                  fill={i % 3 === 0 ? "var(--accent-secondary)" : "var(--accent-primary)"}
-                  opacity="0.3"
-                >
-                  <animate attributeName="height" values={`${100 + Math.cos(i * 0.8) * 40}; ${150 + Math.sin(i) * 60}; ${100 + Math.cos(i * 0.8) * 40}`} dur={`${3 + i * 0.2}s`} repeatCount="indefinite" />
-                  <animate attributeName="y" values={`${200 + Math.sin(i * 0.5) * 50}; ${150 + Math.cos(i) * 30}; ${200 + Math.sin(i * 0.5) * 50}`} dur={`${3 + i * 0.2}s`} repeatCount="indefinite" />
-                </rect>
-              ))}
+              {[...Array(12)].map((_, i) => {
+                const hStart = (100 + Math.cos(i * 0.8) * 40).toFixed(1);
+                const hMid = (150 + Math.sin(i) * 60).toFixed(1);
+                const yStart = (200 + Math.sin(i * 0.5) * 50).toFixed(1);
+                const yMid = (150 + Math.cos(i) * 30).toFixed(1);
+                const duration = (3 + i * 0.2).toFixed(1);
+
+                return (
+                  <rect
+                    key={i}
+                    x={80 + i * 22}
+                    y={yStart}
+                    width="10"
+                    height={hStart}
+                    fill={i % 3 === 0 ? "var(--accent-secondary)" : "var(--accent-primary)"}
+                    opacity="0.3"
+                  >
+                    <animate attributeName="height" values={`${hStart}; ${hMid}; ${hStart}`} dur={`${duration}s`} repeatCount="indefinite" />
+                    <animate attributeName="y" values={`${yStart}; ${yMid}; ${yStart}`} dur={`${duration}s`} repeatCount="indefinite" />
+                  </rect>
+                );
+              })}
 
               {/* Main Trend Line */}
               <path d="M50 300 Q 100 250, 150 280 T 250 180 T 350 120" stroke="var(--accent-primary)" strokeWidth="3" fill="none" strokeDasharray="1000" strokeDashoffset="1000">
