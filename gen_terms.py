@@ -27,7 +27,8 @@ image_map = {
     "margin": "/images/trading_margin_vault_1770917783505.png",
     "liquidation": "/images/trading_liquidation_implosion_1770917818346.png",
     "spread": "/images/trading_spread_gap_1770917878921.png",
-    "slippage": "/images/trading_slippage_execution_1770917962029.png"
+    "slippage": "/images/trading_slippage_execution_1770917962029.png",
+    "sp500---spy---spx-": "/images/trading_spy_sp500_index_1770918359811.png"
 }
 
 output = """export interface Term {
