@@ -118,7 +118,7 @@ export const categories: Category[] = [
           "ru": "виртуальный кошелек с активами, отслеживает баланс и позиции",
           "zh": "包含资产的虚拟钱包，跟踪余额和仓位"
         },
-        "image": "/images/trading_portfolio_glass_1770901643048.png"
+        "image": "/images/trading_portfolio_balanced_spheres_1770920312669.png"
       },
       {
         "id": "metric",
@@ -146,7 +146,7 @@ export const categories: Category[] = [
           "ru": "компонент для генерации сигналов на основе метрик. Пример: если open > close, то buy, если open < close, то sell",
           "zh": "基于指标生成信号的组件。例如：如果开盘价 > 收盘价，则买入；如果开盘价 < 收盘价，则卖出"
         },
-        "image": "/images/trading_signal_logic_1770907593658.png"
+        "image": "/images/trading_signal_holographic_pulse_1770920340872.png"
       },
       {
         "id": "strategy",

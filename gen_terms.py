@@ -34,7 +34,11 @@ image_map = {
     "us10y-us-treasury-yield-": "/images/trading_us10y_bond_yield_q2_1770920026930.png",
     "order-book": "/images/trading_order_book_depth_1770920051662.png",
     "volatility": "/images/trading_volatility_energy_line_1770920088911.png",
-    "liquidity": "/images/trading_liquidity_river_1770920125007.png"
+    "liquidity": "/images/trading_liquidity_river_1770920125007.png",
+    "risk-management": "/images/trading_risk_management_shield_v2_1770920287567.png",
+    "portfolio": "/images/trading_portfolio_balanced_spheres_1770920312669.png",
+    "signal": "/images/trading_signal_holographic_pulse_1770920340872.png",
+    "exchange---trading-platform-": "/images/trading_exchange_global_hub_1770920364660.png"
 }
 
 output = """export interface Term {
