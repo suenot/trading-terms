@@ -228,7 +228,16 @@ image_map = {
     "session-management": "/images/trading_session_mgmt_keys_premium_v2_1770934902768.png",
     "order-routing": "/images/trading_order_routing_blueprint_premium_v2_1770934920838.png",
     "disaster-recovery": "/images/trading_disaster_recovery_mirror_premium_v2_1770935040221.png",
-    "udp-multicast": "/images/trading_udp_multicast_pulse_premium_v2_1770935058441.png"
+    "udp-multicast": "/images/trading_udp_multicast_pulse_premium_v2_1770935058441.png",
+    "macd--rsi--ema--ma": "/images/trading_indicators_group_multichart_premium_1770935866606.png",
+    "open-time": "/images/trading_open_close_time_sun_moon_premium_1770935883408.png",
+    "close-time": "/images/trading_open_close_time_sun_moon_premium_1770935883408.png",
+    "list-of-trades--positions--and-orders": "/images/trading_trades_orders_list_ui_premium_1770935897706.png",
+    "input": "/images/trading_input_data_port_premium_1770935915691.png",
+    "output": "/images/trading_output_data_beam_premium_1770935931593.png",
+    "comment": "/images/trading_comment_digital_note_premium_1770935946973.png",
+    "related-deals": "/images/trading_related_deals_links_premium_1770935966215.png",
+    "platform-broker": "/images/trading_broker_platform_portal_premium_1770935980286.png"
 }
 
 output = """export interface Term {

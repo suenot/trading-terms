@@ -388,7 +388,8 @@ export const categories: Category[] = [
           "en": "most popular technical indicators for analyzing trends, momentum, overbought/oversold zones.",
           "ru": "most popular technical indicators for analyzing trends, momentum, overbought/oversold zones.",
           "zh": "最流行的技术指标，用于分析趋势、动量、超买/超卖区域。"
-        }
+        },
+        "image": "/images/trading_indicators_group_multichart_premium_1770935866606.png"
       },
       {
         "id": "mcclellan-oscillator",
@@ -1013,7 +1014,8 @@ export const categories: Category[] = [
           "en": "date and time of the first trade within the deal",
           "ru": "date and time of the first trade within the deal",
           "zh": "交易内第一笔交易的日期和时间"
-        }
+        },
+        "image": "/images/trading_open_close_time_sun_moon_premium_1770935883408.png"
       },
       {
         "id": "close-time",
@@ -1026,7 +1028,8 @@ export const categories: Category[] = [
           "en": "date and time of the last trade within the deal (if the deal is closed)",
           "ru": "date and time of the last trade within the deal (if the deal is closed)",
           "zh": "交易内最后一笔交易的日期和时间（如果交易已关闭）"
-        }
+        },
+        "image": "/images/trading_open_close_time_sun_moon_premium_1770935883408.png"
       },
       {
         "id": "holding-period",
@@ -1123,7 +1126,8 @@ export const categories: Category[] = [
           "en": "all trades, positions, and orders included in the deal (including canceled ones)",
           "ru": "all trades, positions, and orders included in the deal (including canceled ones)",
           "zh": "交易中包含的所有交易、仓位和订单（包括已取消的）"
-        }
+        },
+        "image": "/images/trading_trades_orders_list_ui_premium_1770935897706.png"
       },
       {
         "id": "input",
@@ -1136,7 +1140,8 @@ export const categories: Category[] = [
           "en": "amount of invested funds (in USDT and base currency)",
           "ru": "amount of invested funds (in USDT and base currency)",
           "zh": "投资资金金额（以USDT和基础货币计）"
-        }
+        },
+        "image": "/images/trading_input_data_port_premium_1770935915691.png"
       },
       {
         "id": "output",
@@ -1149,7 +1154,8 @@ export const categories: Category[] = [
           "en": "amount of withdrawn funds (in USDT and base currency)",
           "ru": "amount of withdrawn funds (in USDT and base currency)",
           "zh": "提取资金金额（以USDT和基础货币计）"
-        }
+        },
+        "image": "/images/trading_output_data_beam_premium_1770935931593.png"
       },
       {
         "id": "comment",
@@ -1162,7 +1168,8 @@ export const categories: Category[] = [
           "en": "free-form notes",
           "ru": "free-form notes",
           "zh": "自由格式注释"
-        }
+        },
+        "image": "/images/trading_comment_digital_note_premium_1770935946973.png"
       },
       {
         "id": "tags",
@@ -1189,7 +1196,8 @@ export const categories: Category[] = [
           "en": "e.g., if part of a strategy or series of deals",
           "ru": "e.g., if part of a strategy or series of deals",
           "zh": "例如，如果是策略或一系列交易的一部分"
-        }
+        },
+        "image": "/images/trading_related_deals_links_premium_1770935966215.png"
       },
       {
         "id": "platform-broker",
@@ -1202,7 +1210,8 @@ export const categories: Category[] = [
           "en": "where the deal was executed",
           "ru": "where the deal was executed",
           "zh": "交易执行的地方"
-        }
+        },
+        "image": "/images/trading_broker_platform_portal_premium_1770935980286.png"
       }
     ]
   },
