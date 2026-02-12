@@ -2675,7 +2675,8 @@ export const categories: Category[] = [
           "en": "systematic approaches used by market makers to provide liquidity while managing risk and generating profit, typically involving simultaneous placement of buy and sell orders at different price levels with the goal of capturing the spread.",
           "ru": "systematic approaches used by market makers to provide liquidity while managing risk and generating profit, typically involving simultaneous placement of buy and sell orders at different price levels with the goal of capturing the spread.",
           "zh": "做市商用于在管理风险和产生利润的同时提供流动性的系统性方法，通常涉及在不同价格水平同时下买单和卖单，目标是获取价差。"
-        }
+        },
+        "image": "/images/trading_market_making_conductor_premium_v2_1770934218749.png"
       },
       {
         "id": "order-book-depth",
@@ -2688,7 +2689,8 @@ export const categories: Category[] = [
           "en": "a measure of the volume of orders at different price levels in the order book, indicating the market's ability to absorb large trades without significant price impact; deeper order books generally suggest higher liquidity.",
           "ru": "a measure of the volume of orders at different price levels in the order book, indicating the market's ability to absorb large trades without significant price impact; deeper order books generally suggest higher liquidity.",
           "zh": "订单簿中不同价格水平订单量的度量，表明市场吸收大额交易而不发生重大价格影响的能力；更深的订单簿通常表明更高的流动性。"
-        }
+        },
+        "image": "/images/trading_order_book_depth_3d_premium_v2_1770934200486.png"
       },
       {
         "id": "liquidity-aggregation",
@@ -2876,7 +2878,8 @@ export const categories: Category[] = [
           "en": "a systematic record of all trades and their analysis",
           "ru": "a systematic record of all trades and their analysis",
           "zh": "所有交易及其分析的系统记录"
-        }
+        },
+        "image": "/images/trading_journal_digital_tablet_premium_v2_1770934183684.png"
       }
     ]
   },
@@ -2899,7 +2902,8 @@ export const categories: Category[] = [
           "en": "placing trading servers in close proximity to exchange servers",
           "ru": "децентрализованная биржа, работающая без центрального посредника",
           "zh": "将交易服务器放置在靠近交易所服务器的位置"
-        }
+        },
+        "image": "/images/trading_colocation_servers_premium_v2_1770934164416.png"
       },
       {
         "id": "latency-arbitrage",

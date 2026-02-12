@@ -208,7 +208,11 @@ image_map = {
     "expected-return": "/images/trading_expected_return_treasure_premium_1770934001190.png",
     "liquidity-aggregation": "/images/trading_liquidity_aggregation_river_premium_1770934016360.png",
     "orderbook-imbalance": "/images/trading_orderbook_imbalance_scale_premium_1770934031344.png",
-    "cluster-analysis": "/images/trading_cluster_analysis_galaxy_premium_1770934048147.png"
+    "cluster-analysis": "/images/trading_cluster_analysis_galaxy_premium_1770934048147.png",
+    "colocation": "/images/trading_colocation_servers_premium_v2_1770934164416.png",
+    "trading-journal": "/images/trading_journal_digital_tablet_premium_v2_1770934183684.png",
+    "order-book-depth": "/images/trading_order_book_depth_3d_premium_v2_1770934200486.png",
+    "market-making-strategies": "/images/trading_market_making_conductor_premium_v2_1770934218749.png"
 }
 
 output = """export interface Term {
