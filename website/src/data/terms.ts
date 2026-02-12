@@ -401,7 +401,8 @@ export const categories: Category[] = [
           "en": "market breadth and short-term overbought conditions.",
           "ru": "market breadth and short-term overbought conditions.",
           "zh": "市场广度和短期超买状况。"
-        }
+        },
+        "image": "/images/trading_mcclellan_oscillator_graph_v5_premium_1770931799436.png"
       },
       {
         "id": "seasonality-and-key-events",
@@ -554,7 +555,8 @@ export const categories: Category[] = [
           "en": "typically green (or white) for bullish candles (close > open) and red for bearish candles (close < open)",
           "ru": "динамический стоп-лосс, который следует за ценой при движении в выгодном направлении",
           "zh": "通常绿色（或白色）表示看涨K线（收盘价 > 开盘价），红色表示看跌K线（收盘价 < 开盘价）"
-        }
+        },
+        "image": "/images/trading_candle_color_meaning_premium_1770931874544.png"
       },
       {
         "id": "shadows-wicks",
@@ -581,7 +583,8 @@ export const categories: Category[] = [
           "en": "line from the top of the body to the maximum price",
           "ru": "крупный ордер, разбитый на серию меньших для минимизации влияния на рынок",
           "zh": "从实体顶部到最高价的线"
-        }
+        },
+        "image": "/images/trading_shadows_wicks_laser_extreme_premium_1770931206215.png"
       },
       {
         "id": "lower-shadow",
@@ -594,7 +597,8 @@ export const categories: Category[] = [
           "en": "line from the bottom of the body to the minimum price",
           "ru": "ордера, активирующиеся при выполнении определенных условий помимо достижения цены",
           "zh": "从实体底部到最低价的线"
-        }
+        },
+        "image": "/images/trading_shadows_wicks_laser_extreme_premium_1770931206215.png"
       },
       {
         "id": "m1--m5--m15--m30",
@@ -621,7 +625,8 @@ export const categories: Category[] = [
           "en": "1, 4 hours",
           "ru": "ордера, цена которых автоматически привязывается к определённому рыночному ориентиру (например, лучшая цена покупки/продажи или средняя цена) и изменяется вместе с ним.",
           "zh": "1、4小时"
-        }
+        },
+        "image": "/images/trading_hourly_timeframe_h1_h4_v2_premium_1770931817649.png"
       },
       {
         "id": "d1",
@@ -648,7 +653,8 @@ export const categories: Category[] = [
           "en": "1 week",
           "ru": "процесс исполнения крупных ордеров (блок-ордеров), часто вне публичного стакана или через специальные механизмы для минимизации рыночного воздействия и проскальзывания.",
           "zh": "1周"
-        }
+        },
+        "image": "/images/trading_weekly_timeframe_w1_v2_premium_1770931836962.png"
       },
       {
         "id": "m1",
@@ -1032,7 +1038,8 @@ export const categories: Category[] = [
           "en": "duration of the deal (from opening to closing)",
           "ru": "duration of the deal (from opening to closing)",
           "zh": "交易持续时间（从开放到关闭）"
-        }
+        },
+        "image": "/images/trading_holding_period_hourglass_v2_premium_1770931856908.png"
       },
       {
         "id": "status",
@@ -1059,7 +1066,8 @@ export const categories: Category[] = [
           "en": "long / short / arbitrage / spread / other",
           "ru": "long / short / arbitrage / spread / other",
           "zh": "多头 / 空头 / 套利 / 价差 / 其他"
-        }
+        },
+        "image": "/images/trading_deal_type_classification_premium_1770931895695.png"
       },
       {
         "id": "strategy",
