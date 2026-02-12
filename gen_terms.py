@@ -189,7 +189,14 @@ image_map = {
     "overfitting": "/images/trading_overfitting_noise_graph_premium_v2_1770933360256.png",
     "algorithmic-trading": "/images/trading_algorithmic_trading_brain_premium_v2_1770933380464.png",
     "high-frequency-trading-circuit-breakers": "/images/trading_hft_circuit_breaker_fuse_premium_v2_1770933398061.png",
-    "hft-quote-stuffing": "/images/trading_quote_stuffing_overflow_premium_v2_1770933417152.png"
+    "hft-quote-stuffing": "/images/trading_quote_stuffing_overflow_premium_v2_1770933417152.png",
+    "perpetual-futures": "/images/trading_perpetual_futures_loop_premium_v2_1770933524969.png",
+    "initial-margin": "/images/trading_margin_safety_net_levels_premium_v2_1770933543153.png",
+    "maintenance-margin": "/images/trading_margin_safety_net_levels_premium_v2_1770933543153.png",
+    "call-option": "/images/trading_call_option_contract_up_premium_v2_1770933557427.png",
+    "put-option": "/images/trading_put_option_contract_v3_premium_1770933623404.png",
+    "trend-trading": "/images/trading_trend_trading_surfer_premium_v2_1770933644854.png",
+    "volume": "/images/trading_volume_indicators_energy_skyscrapers_premium_1770930661867.png"
 }
 
 output = """export interface Term {

@@ -1593,7 +1593,8 @@ export const categories: Category[] = [
           "en": "the number of units of an asset traded during a specific period",
           "ru": "системы и проверки, предотвращающие случайный ввод ордеров с ошибочными параметрами",
           "zh": "特定时期内交易的资产单位数量"
-        }
+        },
+        "image": "/images/trading_volume_indicators_energy_skyscrapers_premium_1770930661867.png"
       },
       {
         "id": "market-depth",
@@ -2374,7 +2375,8 @@ export const categories: Category[] = [
           "en": "using trends and recurring movements on price charts to analyze the general direction of assets",
           "ru": "using trends and recurring movements on price charts to analyze the general direction of assets",
           "zh": "使用价格图表上的趋势和重复运动分析资产总体方向"
-        }
+        },
+        "image": "/images/trading_trend_trading_surfer_premium_v2_1770933644854.png"
       },
       {
         "id": "day-trading",
@@ -2424,7 +2426,8 @@ export const categories: Category[] = [
           "en": "a type of futures contract without an expiration date, which mimics the spot market but with the possibility of using leverage. The price is pegged to the spot price index through a funding rate mechanism.",
           "ru": "математическое ожидание результата торговой стратегии",
           "zh": "没有到期日的期货合约类型，模拟现货市场但可以使用杠杆。价格通过资金费率机制与现货价格指数挂钩。"
-        }
+        },
+        "image": "/images/trading_perpetual_futures_loop_premium_v2_1770933524969.png"
       },
       {
         "id": "funding-rate",
@@ -2465,7 +2468,8 @@ export const categories: Category[] = [
           "en": "the minimum amount of funds a trader must deposit to open a leveraged position. Calculated as a percentage of the total position size.",
           "ru": "отношение прибыли к риску, учитывающее просадки",
           "zh": "交易者必须存入以开立杠杆仓位的最小资金金额。计算为总仓位大小的百分比。"
-        }
+        },
+        "image": "/images/trading_margin_safety_net_levels_premium_v2_1770933543153.png"
       },
       {
         "id": "maintenance-margin",
@@ -2478,7 +2482,8 @@ export const categories: Category[] = [
           "en": "the minimum margin level that must be maintained in an account after opening a position. If the account balance falls below this level, a margin call or liquidation occurs.",
           "ru": "показатель эффективности торговой стратегии",
           "zh": "开立仓位后账户中必须维持的最小保证金水平。如果账户余额低于此水平，则发生保证金追缴或清算。"
-        }
+        },
+        "image": "/images/trading_margin_safety_net_levels_premium_v2_1770933543153.png"
       },
       {
         "id": "liquidation",
@@ -2505,7 +2510,8 @@ export const categories: Category[] = [
           "en": "a contract giving the buyer the right (but not the obligation) to buy the underlying asset at a specified price (strike price) within a certain period or on a specific date (expiration date).",
           "ru": "отношение прибыли к максимальной просадке",
           "zh": "给予买方在特定时期内或特定日期（到期日）以指定价格（执行价格）买入标的资产的权利（但非义务）的合约。"
-        }
+        },
+        "image": "/images/trading_call_option_contract_up_premium_v2_1770933557427.png"
       },
       {
         "id": "put-option",
@@ -2518,7 +2524,8 @@ export const categories: Category[] = [
           "en": "a contract giving the buyer the right (but not the obligation) to sell the underlying asset at a specified price (strike price) within a certain period or on a specific date (expiration date).",
           "ru": "оптимальная доля капитала для торговли",
           "zh": "给予买方在特定时期内或特定日期（到期日）以指定价格（执行价格）卖出标的资产的权利（但非义务）的合约。"
-        }
+        },
+        "image": "/images/trading_put_option_contract_v3_premium_1770933623404.png"
       },
       {
         "id": "strike-price",
