@@ -245,7 +245,13 @@ image_map = {
     "position-trading": "/images/trading_position_trading_statue_premium_1770936140629.png",
     "liquidity-fragmentation": "/images/trading_liquidity_fragmentation_puzzle_premium_1770936161454.png",
     "sortino-ratio": "/images/trading_ratios_sortino_calmar_premium_1770936179987.png",
-    "calmar-ratio": "/images/trading_ratios_sortino_calmar_premium_1770936179987.png"
+    "calmar-ratio": "/images/trading_ratios_sortino_calmar_premium_1770936179987.png",
+    "optimization": "/images/trading_optimization_spiral_premium_retry_1770936239251.png",
+    "order-protection-rule": "/images/trading_protection_rule_shield_premium_1770936255325.png",
+    "quote-matching": "/images/trading_quote_matching_puzzle_premium_1770936270973.png",
+    "order-fill-confirmation": "/images/trading_order_fill_confirm_premium_1770936286377.png",
+    "drop-copy": "/images/trading_drop_copy_ghost_v3_premium_1770936301217.png",
+    "heartbeat-message": "/images/trading_heartbeat_neon_p8_premium_1770936316229.png"
 }
 
 output = """export interface Term {

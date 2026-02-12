@@ -2184,7 +2184,8 @@ export const categories: Category[] = [
           "en": "the process of adjusting strategy parameters to improve results",
           "ru": "the process of adjusting strategy parameters to improve results",
           "zh": "调整策略参数以改善结果的过程"
-        }
+        },
+        "image": "/images/trading_optimization_spiral_premium_retry_1770936239251.png"
       },
       {
         "id": "overfitting",
@@ -3021,7 +3022,8 @@ export const categories: Category[] = [
           "en": "a regulatory requirement or system feature designed to prevent orders from being executed at inferior prices when better prices are available on other trading venues, ensuring best execution for traders.",
           "ru": "токены, которые представляют собой актив из другого блокчейна",
           "zh": "设计用于防止订单在其他交易场所有更好价格时以较差价格执行的监管要求或系统功能，确保交易者的最佳执行。"
-        }
+        },
+        "image": "/images/trading_protection_rule_shield_premium_1770936255325.png"
       },
       {
         "id": "best-execution",
@@ -3076,7 +3078,8 @@ export const categories: Category[] = [
           "en": "the process by which a trading system or exchange compares and pairs buy and sell quotes/orders based on price, time, and other criteria to facilitate trade execution.",
           "ru": "процесс создания новых токенов",
           "zh": "交易系统或交易所基于价格、时间和其他标准比较和配对买卖报价/订单以促进交易执行的过程。"
-        }
+        },
+        "image": "/images/trading_quote_matching_puzzle_premium_1770936270973.png"
       },
       {
         "id": "order-throttling",
@@ -3116,7 +3119,8 @@ export const categories: Category[] = [
           "en": "a notification sent by a trading system or exchange to inform the trader that an order, or part of it, has been executed, including details such as price, quantity, and time of execution.",
           "ru": "a notification sent by a trading system or exchange to inform the trader that an order, or part of it, has been executed, including details such as price, quantity, and time of execution.",
           "zh": "交易系统或交易所发送的通知，告知交易者订单或其部分已被执行，包括价格、数量和执行时间等详细信息。"
-        }
+        },
+        "image": "/images/trading_order_fill_confirm_premium_1770936286377.png"
       },
       {
         "id": "drop-copy",
@@ -3129,7 +3133,8 @@ export const categories: Category[] = [
           "en": "a real-time copy of trade and order messages sent to a third-party system (such as risk management or compliance) for monitoring, auditing, or backup purposes.",
           "ru": "a real-time copy of trade and order messages sent to a third-party system (such as risk management or compliance) for monitoring, auditing, or backup purposes.",
           "zh": "发送给第三方系统（如风险管理或合规）的交易和订单消息实时副本，用于监控、审计或备份目的。"
-        }
+        },
+        "image": "/images/trading_drop_copy_ghost_v3_premium_1770936301217.png"
       },
       {
         "id": "heartbeat-message",
@@ -3142,7 +3147,8 @@ export const categories: Category[] = [
           "en": "a periodic message exchanged between systems to confirm connectivity and session health, ensuring that communication channels remain active and responsive.",
           "ru": "a periodic message exchanged between systems to confirm connectivity and session health, ensuring that communication channels remain active and responsive.",
           "zh": "系统间交换的定期消息，确认连接性和会话健康，确保通信渠道保持活跃和响应。"
-        }
+        },
+        "image": "/images/trading_heartbeat_neon_p8_premium_1770936316229.png"
       },
       {
         "id": "session-management",
