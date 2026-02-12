@@ -87,7 +87,15 @@ image_map = {
     "market-microstructure": "/images/trading_market_microstructure_data_crystals_v2_premium_1770925527114.png",
     "institutional-trader": "/images/trading_institutional_trader_tech_boardroom_v2_premium_1770925551939.png",
     "fibonacci-levels": "/images/trading_fibonacci_levels_golden_ratio_premium_1770925572306.png",
-    "bollinger-bands": "/images/trading_bollinger_bands_volatility_envelope_premium_1770925592703.png"
+    "bollinger-bands": "/images/trading_bollinger_bands_volatility_envelope_premium_1770925592703.png",
+    "sharpe-ratio": "/images/trading_sharpe_ratio_risk_adjusted_premium_1770926160413.png",
+    "bullish-engulfing": "/images/trading_bullish_engulfing_candle_premium_1770926182102.png",
+    "iceberg-order": "/images/trading_iceberg_order_hidden_depth_v2_premium_1770926218050.png",
+    "order-matching-engine": "/images/trading_order_matching_engine_clockwork_v2_premium_1770926245903.png",
+    "funding-rate": "/images/trading_funding_rate_balance_exchange_premium_1770926281100.png",
+    "latency": "/images/trading_latency_microsecond_trail_premium_1770926302797.png",
+    "drawdown": "/images/trading_drawdown_cracked_glass_v2_premium_1770926342862.png",
+    "kelly-criterion": "/images/trading_kelly_criterion_optimal_bet_v2_premium_1770926368677.png"
 }
 
 output = """export interface Term {

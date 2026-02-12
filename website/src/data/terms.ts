@@ -662,7 +662,8 @@ export const categories: Category[] = [
           "en": "a reversal pattern where a bullish candle completely engulfs the previous bearish candle",
           "ru": "продажа актива с ожиданием падения его цены",
           "zh": "反转形态，看涨K线完全吞没前一根看跌K线"
-        }
+        },
+        "image": "/images/trading_bullish_engulfing_candle_premium_1770926182102.png"
       },
       {
         "id": "hammer",
@@ -819,7 +820,8 @@ export const categories: Category[] = [
           "en": "a large order split into a series of smaller ones to minimize market impact",
           "ru": "теория анализа рыночных циклов через волновые паттерны",
           "zh": "分割成一系列较小订单的大订单，以最小化市场影响"
-        }
+        },
+        "image": "/images/trading_iceberg_order_hidden_depth_v2_premium_1770926218050.png"
       },
       {
         "id": "conditional-orders",
@@ -1735,7 +1737,8 @@ export const categories: Category[] = [
           "en": "the decline in portfolio value from peak to trough before a new peak",
           "ru": "протокол для получения данных в реальном времени с биржи",
           "zh": "投资组合价值从峰值到谷底的下降，然后再创新高"
-        }
+        },
+        "image": "/images/trading_drawdown_cracked_glass_v2_premium_1770926342862.png"
       },
       {
         "id": "position-sizing",
@@ -2214,7 +2217,8 @@ export const categories: Category[] = [
           "en": "the time between sending an order and its execution on an exchange",
           "ru": "the time between sending an order and its execution on an exchange",
           "zh": "发送订单到在交易所执行之间的时间"
-        }
+        },
+        "image": "/images/trading_latency_microsecond_trail_premium_1770926302797.png"
       },
       {
         "id": "arbitrage",
@@ -2344,7 +2348,8 @@ export const categories: Category[] = [
           "en": "regular payments between holders of long and short positions in perpetual futures. If the rate is positive, longs pay shorts; if negative, shorts pay longs. This helps keep the futures price close to the spot price.",
           "ru": "наибольшее процентное снижение капитала от пика до минимума",
           "zh": "永续期货中多头和空头仓位持有者之间的定期付款。如果费率为正，多头支付空头；如果为负，空头支付多头。这有助于保持期货价格接近现货价格。"
-        }
+        },
+        "image": "/images/trading_funding_rate_balance_exchange_premium_1770926281100.png"
       },
       {
         "id": "open-interest",
@@ -2605,7 +2610,8 @@ export const categories: Category[] = [
           "en": "the core system of a trading venue or exchange that automatically matches buy and sell orders based on price, time, and other criteria, ensuring fair and efficient trade execution.",
           "ru": "the core system of a trading venue or exchange that automatically matches buy and sell orders based on price, time, and other criteria, ensuring fair and efficient trade execution.",
           "zh": "交易场所或交易所的核心系统，根据价格、时间和其他标准自动匹配买卖订单，确保公平高效的交易执行。"
-        }
+        },
+        "image": "/images/trading_order_matching_engine_clockwork_v2_premium_1770926245903.png"
       },
       {
         "id": "cluster-analysis",
@@ -2667,7 +2673,8 @@ export const categories: Category[] = [
           "en": "a measure of investment efficiency considering risk",
           "ru": "проприетарный высокоскоростной протокол торгов и рыночных данных, используемый Московской биржей",
           "zh": "考虑风险的投资效率度量"
-        }
+        },
+        "image": "/images/trading_sharpe_ratio_risk_adjusted_premium_1770926160413.png"
       },
       {
         "id": "sortino-ratio",
@@ -2732,7 +2739,8 @@ export const categories: Category[] = [
           "en": "the optimal proportion of capital for trading",
           "ru": "the optimal proportion of capital for trading",
           "zh": "交易的最优资本比例"
-        }
+        },
+        "image": "/images/trading_kelly_criterion_optimal_bet_v2_premium_1770926368677.png"
       },
       {
         "id": "cognitive-biases",
