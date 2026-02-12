@@ -901,7 +901,8 @@ export const categories: Category[] = [
           "en": "orders that allow a broker or trading system to execute at a price within a specified range or under certain conditions, giving some flexibility in execution to achieve a better price or timing.",
           "ru": "orders that allow a broker or trading system to execute at a price within a specified range or under certain conditions, giving some flexibility in execution to achieve a better price or timing.",
           "zh": "允许经纪人或交易系统在指定范围内或特定条件下执行的订单，在执行中给予一定灵活性以获得更好价格或时机。"
-        }
+        },
+        "image": "/images/trading_discretionary_p5_premium_v2_1770934640695.png"
       },
       {
         "id": "block-order-execution",
@@ -1174,7 +1175,8 @@ export const categories: Category[] = [
           "en": "for filtering and analytics",
           "ru": "for filtering and analytics",
           "zh": "用于过滤和分析"
-        }
+        },
+        "image": "/images/trading_tags_p5_premium_1770934605004.png"
       },
       {
         "id": "related-deals",
@@ -2555,7 +2557,8 @@ export const categories: Category[] = [
           "en": "the date after which the option contract becomes invalid.",
           "ru": "систематическая запись всех сделок и их анализ",
           "zh": "期权合约失效的日期。"
-        }
+        },
+        "image": "/images/trading_expiry_p5_premium_1770934622188.png"
       },
       {
         "id": "greeks",
@@ -2865,7 +2868,8 @@ export const categories: Category[] = [
           "en": "psychological biases affecting trading decisions. Examples:",
           "ru": "psychological biases affecting trading decisions. Examples:",
           "zh": "影响交易决策的心理偏差。例子："
-        }
+        },
+        "image": "/images/trading_biases_p5_premium_1770934584665.png"
       },
       {
         "id": "trading-journal",
@@ -2916,7 +2920,8 @@ export const categories: Category[] = [
           "en": "utilizing the time difference in receiving market data",
           "ru": "автоматизированный маркет-мейкер, используемый в DEX",
           "zh": "利用接收市场数据的时间差异"
-        }
+        },
+        "image": "/images/trading_latency_arb_p5_premium_1770934533367.png"
       },
       {
         "id": "hft-latency-arbitrage",
@@ -2929,7 +2934,8 @@ export const categories: Category[] = [
           "en": "a high-frequency trading strategy that exploits tiny time differences in market data transmission across exchanges or venues to profit from price discrepancies before they are corrected.",
           "ru": "пул ликвидности в децентрализованных протоколах",
           "zh": "利用交易所或场所间市场数据传输的微小时间差异从价格差异中获利的高频交易策略，在它们被纠正之前。"
-        }
+        },
+        "image": "/images/trading_latency_arb_p5_premium_1770934533367.png"
       },
       {
         "id": "network-infrastructure",
@@ -2942,7 +2948,8 @@ export const categories: Category[] = [
           "en": "optimizing network connections to minimize delays",
           "ru": "временная потеря стоимости при предоставлении ликвидности в AMM",
           "zh": "优化网络连接以最小化延迟"
-        }
+        },
+        "image": "/images/trading_infra_p5_premium_1770934549214.png"
       },
       {
         "id": "monitoring-systems",
@@ -2955,7 +2962,8 @@ export const categories: Category[] = [
           "en": "tools for tracking the operation of trading algorithms in real-time",
           "ru": "процесс получения вознаграждения (часто в виде дополнительных токенов) за предоставление ликвидности или стейкинг криптовалют в DeFi протоколах",
           "zh": "实时跟踪交易算法运行的工具"
-        }
+        },
+        "image": "/images/trading_monitor_p5_premium_1770934565555.png"
       },
       {
         "id": "smart-order-router--sor-",
