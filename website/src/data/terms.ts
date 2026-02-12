@@ -1507,7 +1507,8 @@ export const categories: Category[] = [
           "en": "a measure of how easily an asset can be bought or sold without significantly affecting its price",
           "ru": "механизм экстренного отключения торговых систем или отмены всех открытых ордеров для предотвращения дальнейших убытков",
           "zh": "资产在不显著影响其价格情况下买卖容易程度的度量"
-        }
+        },
+        "image": "/images/trading_liquidity_river_1770920125007.png"
       },
       {
         "id": "volume",
@@ -1585,7 +1586,8 @@ export const categories: Category[] = [
           "en": "a measure of an asset's price fluctuations",
           "ru": "системы и процедуры, регулирующие, кто и как может отправлять ордера на торговые площадки",
           "zh": "资产价格波动的度量"
-        }
+        },
+        "image": "/images/trading_volatility_energy_line_1770920088911.png"
       },
       {
         "id": "trend",

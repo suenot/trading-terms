@@ -29,7 +29,12 @@ image_map = {
     "spread": "/images/trading_spread_gap_1770917878921.png",
     "slippage": "/images/trading_slippage_execution_1770917962029.png",
     "sp500---spy---spx-": "/images/trading_spy_sp500_index_1770918359811.png",
-    "dxy": "/images/trading_dxy_dollar_index_1770919227344.png"
+    "dxy": "/images/trading_dxy_dollar_index_1770919227344.png",
+    "nasdaq-100---qqq-": "/images/trading_nasdaq_tech_index_q2_1770920004375.png",
+    "us10y-us-treasury-yield-": "/images/trading_us10y_bond_yield_q2_1770920026930.png",
+    "order-book": "/images/trading_order_book_depth_1770920051662.png",
+    "volatility": "/images/trading_volatility_energy_line_1770920088911.png",
+    "liquidity": "/images/trading_liquidity_river_1770920125007.png"
 }
 
 output = """export interface Term {
