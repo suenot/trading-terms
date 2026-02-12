@@ -290,7 +290,8 @@ export const categories: Category[] = [
           "en": "sector ETF for semiconductors, indicator of sentiment in the technology industry.",
           "ru": "sector ETF for semiconductors, indicator of sentiment in the technology industry.",
           "zh": "半导体行业ETF，科技行业情绪指标。"
-        }
+        },
+        "image": "/images/trading_semiconductor_etf_wafer_premium_1770931168042.png"
       },
       {
         "id": "vvix",
@@ -534,7 +535,8 @@ export const categories: Category[] = [
           "en": "a rectangle showing the difference between opening and closing prices",
           "ru": "ордер на закрытие позиции с убытком для ограничения потенциальных потерь",
           "zh": "显示开盘价和收盘价差异的矩形"
-        }
+        },
+        "image": "/images/trading_candle_body_glass_monolith_premium_1770931188275.png"
       },
       {
         "id": "color",
@@ -560,7 +562,8 @@ export const categories: Category[] = [
           "en": "lines extending above and below the body, showing maximum and minimum prices",
           "ru": "пара связанных ордеров, при исполнении одного второй автоматически отменяется",
           "zh": "延伸到实体上方和下方的线，显示最高价和最低价"
-        }
+        },
+        "image": "/images/trading_shadows_wicks_laser_extreme_premium_1770931206215.png"
       },
       {
         "id": "upper-shadow",
@@ -842,7 +845,8 @@ export const categories: Category[] = [
           "en": "orders that activate when certain conditions besides price are met",
           "ru": "геометрические ценовые паттерны, основанные на числах Фибоначчи",
           "zh": "除价格外满足特定条件时激活的订单"
-        }
+        },
+        "image": "/images/trading_conditional_orders_logic_gates_premium_1770931227591.png"
       },
       {
         "id": "hidden-orders",
@@ -978,7 +982,8 @@ export const categories: Category[] = [
           "en": "unique identifier",
           "ru": "unique identifier",
           "zh": "唯一标识符"
-        }
+        },
+        "image": "/images/trading_deal_id_unique_hologram_premium_1770931249006.png"
       },
       {
         "id": "open-time",
@@ -1030,7 +1035,8 @@ export const categories: Category[] = [
           "en": "open / closed / partially closed / canceled",
           "ru": "open / closed / partially closed / canceled",
           "zh": "开放 / 关闭 / 部分关闭 / 取消"
-        }
+        },
+        "image": "/images/trading_status_indicator_glow_states_premium_1770931267717.png"
       },
       {
         "id": "deal-type",
@@ -1070,7 +1076,8 @@ export const categories: Category[] = [
           "en": "which user initiated the deal",
           "ru": "which user initiated the deal",
           "zh": "哪个用户发起的交易"
-        }
+        },
+        "image": "/images/trading_user_profile_avatar_premium_v3_retry_1770931310140.png"
       },
       {
         "id": "asset-s-",
@@ -1083,7 +1090,8 @@ export const categories: Category[] = [
           "en": "symbol(s) of traded instruments (e.g., BTC/USDT)",
           "ru": "symbol(s) of traded instruments (e.g., BTC/USDT)",
           "zh": "交易工具的符号（例如BTC/USDT）"
-        }
+        },
+        "image": "/images/trading_assets_crypto_collection_premium_v2_retry_1770931328682.png"
       },
       {
         "id": "list-of-trades--positions--and-orders",

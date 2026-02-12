@@ -129,7 +129,15 @@ image_map = {
     "bid": "/images/trading_bid_buyer_hand_demand_premium_1770930606316.png",
     "ask-offer": "/images/trading_ask_seller_hand_supply_premium_1770930625426.png",
     "volume-indicators": "/images/trading_volume_indicators_energy_skyscrapers_premium_1770930661867.png",
-    "momentum-indicators": "/images/trading_momentum_indicators_tachometer_premium_1770930677230.png"
+    "momentum-indicators": "/images/trading_momentum_indicators_tachometer_premium_1770930677230.png",
+    "semiconductor-etf---smh---soxx-": "/images/trading_semiconductor_etf_wafer_premium_1770931168042.png",
+    "candle-body": "/images/trading_candle_body_glass_monolith_premium_1770931188275.png",
+    "shadows-wicks": "/images/trading_shadows_wicks_laser_extreme_premium_1770931206215.png",
+    "conditional-orders": "/images/trading_conditional_orders_logic_gates_premium_1770931227591.png",
+    "deal-id": "/images/trading_deal_id_unique_hologram_premium_1770931249006.png",
+    "status": "/images/trading_status_indicator_glow_states_premium_1770931267717.png",
+    "user": "/images/trading_user_profile_avatar_premium_v3_retry_1770931310140.png",
+    "asset-s-": "/images/trading_assets_crypto_collection_premium_v2_retry_1770931328682.png"
 }
 
 output = """export interface Term {
