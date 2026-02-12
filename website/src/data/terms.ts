@@ -1293,7 +1293,8 @@ export const categories: Category[] = [
           "en": "shows the cumulative pressure of buyers (Buy Market Orders) versus sellers (Sell Market Orders) over a selected period, starting from a reference point. Calculated as the running sum of the difference between buy volume at ask prices and sell volume at bid prices for each bar or tick:",
           "ru": "shows the cumulative pressure of buyers (Buy Market Orders) versus sellers (Sell Market Orders) over a selected period, starting from a reference point. Calculated as the running sum of the difference between buy volume at ask prices and sell volume at bid prices for each bar or tick:",
           "zh": "显示选定时期内买方（买入市场订单）与卖方（卖出市场订单）的累积压力，从参考点开始。计算为每根K线或tick的买价成交量与卖价成交量差值的累计和："
-        }
+        },
+        "image": "/images/trading_cumulative_volume_delta_cvd_premium_1770932090198.png"
       },
       {
         "id": "momentum-indicators",
@@ -1372,7 +1373,8 @@ export const categories: Category[] = [
           "en": "a method of forecasting future price movements based on studying past price changes and trading volumes. Uses charts, patterns, indicators.",
           "ru": "участник рынка, обеспечивающий ликвидность путем выставления одновременно ордеров на покупку и продажу. Основные функции:",
           "zh": "基于研究过去价格变化和交易量预测未来价格变动的方法。使用图表、形态、指标。"
-        }
+        },
+        "image": "/images/trading_technical_analysis_overlay_premium_v2_1770932120213.png"
       },
       {
         "id": "fundamental-analysis",
@@ -1450,7 +1452,8 @@ export const categories: Category[] = [
           "en": "a market participant who deliberately influences an asset's price to profit from price changes. Main strategies:",
           "ru": "определение оптимального количества единиц актива для торговли с учетом риска",
           "zh": "故意影响资产价格以从价格变化中获利的市场参与者。主要策略："
-        }
+        },
+        "image": "/images/trading_market_manipulator_v2_premium_1770932297387.png"
       },
       {
         "id": "maker",
@@ -1518,7 +1521,8 @@ export const categories: Category[] = [
           "en": "an individual investor trading in relatively small volumes. Usually has limited resources and information.",
           "ru": "автоматизированные системы и правила, встроенные в торговые алгоритмы или платформы для мониторинга и ограничения рисков в реальном времени",
           "zh": "相对小量交易的个人投资者。通常拥有有限的资源和信息。"
-        }
+        },
+        "image": "/images/trading_retail_trader_home_nexus_premium_1770932317964.png"
       },
       {
         "id": "arbitrageur",
@@ -1531,7 +1535,8 @@ export const categories: Category[] = [
           "en": "a market participant who profits from price differences of the same asset on different markets or exchanges. Contributes to price efficiency.",
           "ru": "меры управления рисками, применяемые до отправки ордера",
           "zh": "从同一资产在不同市场或交易所的价格差异中获利的市场参与者。有助于价格效率。"
-        }
+        },
+        "image": "/images/trading_arbitrageur_v2_premium_1770932215044.png"
       },
       {
         "id": "scalper",
@@ -1544,7 +1549,8 @@ export const categories: Category[] = [
           "en": "a trader who makes many short-term trades to get small profits from minor price movements. Often uses technical analysis and automated systems.",
           "ru": "процессы и проверки после исполнения сделки для контроля соответствия",
           "zh": "进行许多短期交易以从微小价格变动中获得小额利润的交易者。通常使用技术分析和自动化系统。"
-        }
+        },
+        "image": "/images/trading_scalper_v2_premium_1770932245101.png"
       },
       {
         "id": "whale",
@@ -1815,7 +1821,8 @@ export const categories: Category[] = [
           "en": "distributing capital among various assets to reduce risk",
           "ru": "процесс тестирования торговой стратегии на исторических данных",
           "zh": "在各种资产中分配资本以降低风险"
-        }
+        },
+        "image": "/images/trading_diversification_v2_premium_1770932274153.png"
       },
       {
         "id": "value-at-risk--var-",
@@ -1828,7 +1835,8 @@ export const categories: Category[] = [
           "en": "a statistical measure of the maximum potential loss of a portfolio over a specific period with a given confidence level (e.g., a 95% VaR of $1000 over 1 day means there is a 95% confidence that losses will not exceed $1000 within one day).",
           "ru": "процесс настройки параметров стратегии для улучшения результатов",
           "zh": "在给定置信水平下特定时期内投资组合最大潜在损失的统计度量（例如，1天95% VaR为$1000意味着有95%的置信度损失在一天内不会超过$1000）。"
-        }
+        },
+        "image": "/images/trading_value_at_risk_var_shield_premium_1770932150146.png"
       },
       {
         "id": "hedging",
@@ -1868,7 +1876,8 @@ export const categories: Category[] = [
           "en": "automated systems and rules embedded in trading algorithms or platforms to monitor and limit risks in real-time, such as position size limits, maximum loss thresholds, and order frequency controls.",
           "ru": "алгоритмическая торговля с очень высокой скоростью и большим количеством сделок",
           "zh": "嵌入交易算法或平台中的自动化系统和规则，实时监控和限制风险，如仓位大小限制、最大损失阈值和订单频率控制。"
-        }
+        },
+        "image": "/images/trading_algorithmic_risk_controls_firewall_premium_1770932339961.png"
       },
       {
         "id": "pre-trade-risk-controls",
@@ -1907,7 +1916,8 @@ export const categories: Category[] = [
           "en": "the ongoing monitoring of trading activity and market behavior to detect and prevent manipulation, fraud, insider trading, and other abusive practices, ensuring market integrity and compliance with regulations.",
           "ru": "краткосрочная торговая стратегия, нацеленная на получение множества небольших прибылей за короткие промежутки времени",
           "zh": "持续监控交易活动和市场行为以检测和防止操纵、欺诈、内幕交易和其他滥用行为，确保市场诚信和监管合规。"
-        }
+        },
+        "image": "/images/trading_market_surveillance_digital_eye_premium_1770932175448.png"
       },
       {
         "id": "kill-switch",

@@ -155,7 +155,17 @@ image_map = {
     "color": "/images/trading_candle_color_meaning_premium_1770931874544.png",
     "deal-type": "/images/trading_deal_type_classification_premium_1770931895695.png",
     "upper-shadow": "/images/trading_shadows_wicks_laser_extreme_premium_1770931206215.png",
-    "lower-shadow": "/images/trading_shadows_wicks_laser_extreme_premium_1770931206215.png"
+    "lower-shadow": "/images/trading_shadows_wicks_laser_extreme_premium_1770931206215.png",
+    "cumulative-volume-delta--cvd-": "/images/trading_cumulative_volume_delta_cvd_premium_1770932090198.png",
+    "technical-analysis": "/images/trading_technical_analysis_overlay_premium_v2_1770932120213.png",
+    "value-at-risk--var-": "/images/trading_value_at_risk_var_shield_premium_1770932150146.png",
+    "market-surveillance": "/images/trading_market_surveillance_digital_eye_premium_1770932175448.png",
+    "arbitrageur": "/images/trading_arbitrageur_v2_premium_1770932215044.png",
+    "scalper": "/images/trading_scalper_v2_premium_1770932245101.png",
+    "diversification": "/images/trading_diversification_v2_premium_1770932274153.png",
+    "market-manipulator": "/images/trading_market_manipulator_v2_premium_1770932297387.png",
+    "retail-trader": "/images/trading_retail_trader_home_nexus_premium_1770932317964.png",
+    "algorithmic-risk-controls": "/images/trading_algorithmic_risk_controls_firewall_premium_1770932339961.png"
 }
 
 output = """export interface Term {
