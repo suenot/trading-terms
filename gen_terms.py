@@ -21,7 +21,13 @@ image_map = {
     "order-book-imbalance": "/images/trading_order_book_imbalance_1770917362083.png",
     "long-position": "/images/trading_long_position_upward_1770917400117.png",
     "short-position": "/images/trading_short_position_downward_1770917435821.png",
-    "take-profit": "/images/trading_take_profit_harvest_1770917518995.png"
+    "take-profit": "/images/trading_take_profit_harvest_1770917518995.png",
+    "stop-loss": "/images/trading_stop_loss_barrier_1770917629400.png",
+    "leverage": "/images/trading_leverage_multiplier_1770917688320.png",
+    "margin": "/images/trading_margin_vault_1770917783505.png",
+    "liquidation": "/images/trading_liquidation_implosion_1770917818346.png",
+    "spread": "/images/trading_spread_gap_1770917878921.png",
+    "slippage": "/images/trading_slippage_execution_1770917962029.png"
 }
 
 output = """export interface Term {

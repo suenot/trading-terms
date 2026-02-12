@@ -767,7 +767,8 @@ export const categories: Category[] = [
           "en": "an order to close a position with a loss to limit potential losses",
           "ru": "показывает суммарное давление покупателей (Buy Market Orders) против продавцов (Sell Market Orders) за выбранный период, начиная с стартовой точки. Рассчитывается как накопительная сумма разности между объёмом покупок по Ask и объёмом продаж по Bid для каждого бара или тика:",
           "zh": "以亏损平仓以限制潜在损失的订单"
-        }
+        },
+        "image": "/images/trading_stop_loss_barrier_1770917629400.png"
       },
       {
         "id": "trailing-stop",
@@ -925,7 +926,8 @@ export const categories: Category[] = [
           "en": "collateral required to open a position with leverage",
           "ru": "collateral required to open a position with leverage",
           "zh": "开立杠杆仓位所需的抵押品"
-        }
+        },
+        "image": "/images/trading_margin_vault_1770917783505.png"
       },
       {
         "id": "leverage",
@@ -938,7 +940,8 @@ export const categories: Category[] = [
           "en": "the ratio between position size and a trader's own funds",
           "ru": "the ratio between position size and a trader's own funds",
           "zh": "仓位大小与交易者自有资金的比率"
-        }
+        },
+        "image": "/images/trading_leverage_multiplier_1770917688320.png"
       },
       {
         "id": "deal-id",
@@ -1632,7 +1635,8 @@ export const categories: Category[] = [
           "en": "the difference between bid and ask prices",
           "ru": "the difference between bid and ask prices",
           "zh": "买价和卖价之间的差异"
-        }
+        },
+        "image": "/images/trading_spread_gap_1770917878921.png"
       },
       {
         "id": "quote",
@@ -2365,7 +2369,8 @@ export const categories: Category[] = [
           "en": "the forced closure of a trader's position by the exchange when their margin falls below the maintenance margin level. This is done to prevent further losses that could exceed the trader's account funds.",
           "ru": "показатель чувствительности торговой стратегии к рыночному индексу",
           "zh": "当交易者保证金低于维持保证金水平时交易所强制平仓。这样做是为了防止可能超过交易者账户资金的进一步损失。"
-        }
+        },
+        "image": "/images/trading_liquidation_implosion_1770917818346.png"
       },
       {
         "id": "call-option",
